@@ -1,0 +1,2861 @@
+class: org/apache/commons/codec/StringEncoderComparator
+method: <init> ()V
+all statements: [47, 48, 49]
+coveraged statements: null
+--------------------------------------------
+method: compare (Ljava/lang/Object;Ljava/lang/Object;)I
+all statements: [77, 82, 83, 84, 85, 86, 87, 88]
+coveraged statements: [77, 82, 83, 84, 85, 86, 87, 88]
+--------------------------------------------
+method: <init> (Lorg/apache/commons/codec/StringEncoder;)V
+all statements: [57, 58, 59]
+coveraged statements: [57, 58, 59]
+--------------------------------------------
+
+class: org/apache/commons/codec/digest/HmacUtils
+method: hmacSha384Hex (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [700]
+coveraged statements: [700]
+--------------------------------------------
+method: hmacMd5 (Ljava/lang/String;Ljava/lang/String;)[B
+all statements: [302]
+coveraged statements: [302]
+--------------------------------------------
+method: getInitializedMac (Ljava/lang/String;[B)Ljavax/crypto/Mac;
+all statements: [231, 232, 236, 237, 238, 239, 240, 241, 242, 243]
+coveraged statements: [231, 232, 236, 237, 238, 239, 240, 241]
+--------------------------------------------
+method: hmacSha256Hex ([BLjava/io/InputStream;)Ljava/lang/String;
+all statements: [569]
+coveraged statements: [569]
+--------------------------------------------
+method: hmac (Ljava/nio/ByteBuffer;)[B
+all statements: [1002, 1003]
+coveraged statements: null
+--------------------------------------------
+method: hmacSha1Hex ([BLjava/io/InputStream;)Ljava/lang/String;
+all statements: [455]
+coveraged statements: [455]
+--------------------------------------------
+method: isAvailable (Ljava/lang/String;)Z
+all statements: [70, 71, 72, 73]
+coveraged statements: null
+--------------------------------------------
+method: hmacSha1 ([B[B)[B
+all statements: [377]
+coveraged statements: [377]
+--------------------------------------------
+method: hmacSha1 ([BLjava/io/InputStream;)[B
+all statements: [399]
+coveraged statements: [399]
+--------------------------------------------
+method: hmacSha256 (Ljava/lang/String;Ljava/lang/String;)[B
+all statements: [530]
+coveraged statements: [530]
+--------------------------------------------
+method: hmac ([B)[B
+all statements: [958]
+coveraged statements: [958]
+--------------------------------------------
+method: getHmacSha256 ([B)Ljavax/crypto/Mac;
+all statements: [150]
+coveraged statements: [150]
+--------------------------------------------
+method: hmacSha1Hex ([B[B)Ljava/lang/String;
+all statements: [433]
+coveraged statements: [433]
+--------------------------------------------
+method: hmacSha256Hex ([B[B)Ljava/lang/String;
+all statements: [547]
+coveraged statements: [547]
+--------------------------------------------
+method: hmacSha512Hex ([BLjava/io/InputStream;)Ljava/lang/String;
+all statements: [797]
+coveraged statements: [797]
+--------------------------------------------
+method: hmacMd5Hex ([B[B)Ljava/lang/String;
+all statements: [319]
+coveraged statements: [319]
+--------------------------------------------
+method: hmacMd5Hex ([BLjava/io/InputStream;)Ljava/lang/String;
+all statements: [341]
+coveraged statements: [341]
+--------------------------------------------
+method: <init> ()V
+all statements: [889, 890]
+coveraged statements: null
+--------------------------------------------
+method: hmacMd5 ([B[B)[B
+all statements: [263]
+coveraged statements: [263]
+--------------------------------------------
+method: hmacHex (Ljava/io/InputStream;)Ljava/lang/String;
+all statements: [1054]
+coveraged statements: [1054]
+--------------------------------------------
+method: <init> (Ljavax/crypto/Mac;)V
+all statements: [894, 895, 896]
+coveraged statements: [894, 895, 896]
+--------------------------------------------
+method: <init> (Lorg/apache/commons/codec/digest/HmacAlgorithms;Ljava/lang/String;)V
+all statements: [934, 935]
+coveraged statements: [934, 935]
+--------------------------------------------
+method: hmacSha512Hex (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [814]
+coveraged statements: [814]
+--------------------------------------------
+method: hmacSha512 ([BLjava/io/InputStream;)[B
+all statements: [741]
+coveraged statements: [741]
+--------------------------------------------
+method: getInitializedMac (Lorg/apache/commons/codec/digest/HmacAlgorithms;[B)Ljavax/crypto/Mac;
+all statements: [210]
+coveraged statements: [210]
+--------------------------------------------
+method: <init> (Lorg/apache/commons/codec/digest/HmacAlgorithms;[B)V
+all statements: [947, 948]
+coveraged statements: [947, 948]
+--------------------------------------------
+method: hmacSha384 ([B[B)[B
+all statements: [605]
+coveraged statements: [605]
+--------------------------------------------
+method: hmacSha256Hex (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [586]
+coveraged statements: [586]
+--------------------------------------------
+method: hmacSha512 (Ljava/lang/String;Ljava/lang/String;)[B
+all statements: [758]
+coveraged statements: [758]
+--------------------------------------------
+method: hmac (Ljava/lang/String;)[B
+all statements: [980]
+coveraged statements: [980]
+--------------------------------------------
+method: hmacHex (Ljava/nio/ByteBuffer;)Ljava/lang/String;
+all statements: [1014]
+coveraged statements: null
+--------------------------------------------
+method: updateHmac (Ljavax/crypto/Mac;[B)Ljavax/crypto/Mac;
+all statements: [831, 832, 833]
+coveraged statements: [831, 832, 833]
+--------------------------------------------
+method: getHmacSha384 ([B)Ljavax/crypto/Mac;
+all statements: [170]
+coveraged statements: [170]
+--------------------------------------------
+method: updateHmac (Ljavax/crypto/Mac;Ljava/lang/String;)Ljavax/crypto/Mac;
+all statements: [877, 878, 879]
+coveraged statements: [877, 878, 879]
+--------------------------------------------
+method: hmacHex (Ljava/lang/String;)Ljava/lang/String;
+all statements: [991]
+coveraged statements: [991]
+--------------------------------------------
+method: hmacSha1Hex (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [472]
+coveraged statements: [472]
+--------------------------------------------
+method: updateHmac (Ljavax/crypto/Mac;Ljava/io/InputStream;)Ljavax/crypto/Mac;
+all statements: [853, 854, 855, 857, 858, 859, 862]
+coveraged statements: [853, 854, 855, 857, 858, 859, 862]
+--------------------------------------------
+method: hmac (Ljava/io/InputStream;)[B
+all statements: [1031, 1034, 1035, 1037]
+coveraged statements: [1031, 1034, 1035, 1037]
+--------------------------------------------
+method: hmacSha256 ([B[B)[B
+all statements: [491]
+coveraged statements: [491]
+--------------------------------------------
+method: hmacSha256 ([BLjava/io/InputStream;)[B
+all statements: [513]
+coveraged statements: [513]
+--------------------------------------------
+method: hmacHex ([B)Ljava/lang/String;
+all statements: [969]
+coveraged statements: [969]
+--------------------------------------------
+method: getHmacMd5 ([B)Ljavax/crypto/Mac;
+all statements: [110]
+coveraged statements: [110]
+--------------------------------------------
+method: hmacSha384Hex ([B[B)Ljava/lang/String;
+all statements: [661]
+coveraged statements: [661]
+--------------------------------------------
+method: hmacSha1 (Ljava/lang/String;Ljava/lang/String;)[B
+all statements: [416]
+coveraged statements: [416]
+--------------------------------------------
+method: <init> (Ljava/lang/String;Ljava/lang/String;)V
+all statements: [921, 922]
+coveraged statements: null
+--------------------------------------------
+method: isAvailable (Lorg/apache/commons/codec/digest/HmacAlgorithms;)Z
+all statements: [86, 87, 88, 89]
+coveraged statements: [86, 87]
+--------------------------------------------
+method: hmacSha384 ([BLjava/io/InputStream;)[B
+all statements: [627]
+coveraged statements: [627]
+--------------------------------------------
+method: getHmacSha1 ([B)Ljavax/crypto/Mac;
+all statements: [130]
+coveraged statements: [130]
+--------------------------------------------
+method: hmacSha512Hex ([B[B)Ljava/lang/String;
+all statements: [775]
+coveraged statements: [775]
+--------------------------------------------
+method: hmacSha512 ([B[B)[B
+all statements: [719]
+coveraged statements: [719]
+--------------------------------------------
+method: <init> (Ljava/lang/String;[B)V
+all statements: [908, 909]
+coveraged statements: [908, 909]
+--------------------------------------------
+method: hmac (Ljava/io/File;)[B
+all statements: [1067, 1069, 1071]
+coveraged statements: null
+--------------------------------------------
+method: hmacMd5 ([BLjava/io/InputStream;)[B
+all statements: [285]
+coveraged statements: [285]
+--------------------------------------------
+method: getHmacSha512 ([B)Ljavax/crypto/Mac;
+all statements: [190]
+coveraged statements: [190]
+--------------------------------------------
+method: hmacMd5Hex (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [358]
+coveraged statements: [358]
+--------------------------------------------
+method: hmacSha384Hex ([BLjava/io/InputStream;)Ljava/lang/String;
+all statements: [683]
+coveraged statements: [683]
+--------------------------------------------
+method: hmacHex (Ljava/io/File;)Ljava/lang/String;
+all statements: [1085]
+coveraged statements: null
+--------------------------------------------
+method: hmacSha384 (Ljava/lang/String;Ljava/lang/String;)[B
+all statements: [644]
+coveraged statements: [644]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/bm/PhoneticEngine
+method: encode (Ljava/lang/String;Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Ljava/lang/String;
+all statements: [399, 401, 403, 407, 409, 410, 411, 412, 413, 415, 417, 419, 420, 421, 423, 426, 427, 430, 432, 433, 434, 435, 436, 437, 438, 440, 441, 442, 444, 445, 447, 450, 452, 453, 455, 458, 459, 460, 461, 463, 466, 469, 470, 471, 472, 473, 474, 477, 479, 481]
+coveraged statements: null
+--------------------------------------------
+method: <clinit> ()V
+all statements: [235, 238, 239, 240, 241, 242, 243, 245, 246, 247, 249]
+coveraged statements: [235, 238, 239, 240, 241, 242, 243, 245, 246, 247, 249]
+--------------------------------------------
+method: getRuleType ()Lorg/apache/commons/codec/language/bm/RuleType;
+all statements: [508]
+coveraged statements: null
+--------------------------------------------
+method: join (Ljava/lang/Iterable;Ljava/lang/String;)Ljava/lang/String;
+all statements: [258, 259, 260, 261, 263, 264, 267]
+coveraged statements: null
+--------------------------------------------
+method: <init> (Lorg/apache/commons/codec/language/bm/NameType;Lorg/apache/commons/codec/language/bm/RuleType;Z)V
+all statements: [293, 294]
+coveraged statements: [293]
+--------------------------------------------
+method: getNameType ()Lorg/apache/commons/codec/language/bm/NameType;
+all statements: [499]
+coveraged statements: null
+--------------------------------------------
+method: applyFinalRules (Lorg/apache/commons/codec/language/bm/PhoneticEngine$PhonemeBuilder;Ljava/util/Map;)Lorg/apache/commons/codec/language/bm/PhoneticEngine$PhonemeBuilder;
+all statements: [331, 332, 334, 335, 338, 341, 342, 343, 345, 346, 347, 348, 349, 351, 353, 356, 357, 362, 363, 364, 365, 366, 367, 368, 370, 371, 373]
+coveraged statements: null
+--------------------------------------------
+method: isConcat ()Z
+all statements: [517]
+coveraged statements: null
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [384, 385]
+coveraged statements: null
+--------------------------------------------
+method: getLang ()Lorg/apache/commons/codec/language/bm/Lang;
+all statements: [490]
+coveraged statements: null
+--------------------------------------------
+method: getMaxPhonemes ()I
+all statements: [527]
+coveraged statements: null
+--------------------------------------------
+method: <init> (Lorg/apache/commons/codec/language/bm/NameType;Lorg/apache/commons/codec/language/bm/RuleType;ZI)V
+all statements: [310, 311, 312, 314, 315, 316, 317, 318, 319]
+coveraged statements: [310, 311, 314, 315, 316, 317]
+--------------------------------------------
+
+class: org/apache/commons/codec/binary/BaseNCodec$Context
+method: <init> ()V
+all statements: [92, 93]
+coveraged statements: [92, 93]
+--------------------------------------------
+method: toString ()Ljava/lang/String;
+all statements: [103, 104, 105]
+coveraged statements: null
+--------------------------------------------
+
+class: org/apache/commons/codec/binary/Base32OutputStream
+method: <init> (Ljava/io/OutputStream;ZI[B)V
+all statements: [86, 87]
+coveraged statements: [86, 87]
+--------------------------------------------
+method: <init> (Ljava/io/OutputStream;Z)V
+all statements: [65, 66]
+coveraged statements: [65, 66]
+--------------------------------------------
+method: <init> (Ljava/io/OutputStream;)V
+all statements: [52, 53]
+coveraged statements: [52, 53]
+--------------------------------------------
+
+class: org/apache/commons/codec/binary/StringUtils
+method: getBytesUtf8 (Ljava/lang/String;)[B
+all statements: [271]
+coveraged statements: [271]
+--------------------------------------------
+method: <init> ()V
+all statements: [39]
+coveraged statements: [39]
+--------------------------------------------
+method: newStringUtf16Be ([B)Ljava/lang/String;
+all statements: [387]
+coveraged statements: [387]
+--------------------------------------------
+method: newString ([BLjava/nio/charset/Charset;)Ljava/lang/String;
+all statements: [293]
+coveraged statements: [293]
+--------------------------------------------
+method: getBytesUtf16Le (Ljava/lang/String;)[B
+all statements: [253]
+coveraged statements: [253]
+--------------------------------------------
+method: getByteBufferUtf8 (Ljava/lang/String;)Ljava/nio/ByteBuffer;
+all statements: [132]
+coveraged statements: [132]
+--------------------------------------------
+method: newString ([BLjava/lang/String;)Ljava/lang/String;
+all statements: [316, 317, 320, 321, 322]
+coveraged statements: [316, 317, 320, 321, 322]
+--------------------------------------------
+method: newIllegalStateException (Ljava/lang/String;Ljava/io/UnsupportedEncodingException;)Ljava/lang/IllegalStateException;
+all statements: [276]
+coveraged statements: [276]
+--------------------------------------------
+method: newStringIso8859_1 ([B)Ljava/lang/String;
+all statements: [339]
+coveraged statements: [339]
+--------------------------------------------
+method: newStringUtf8 ([B)Ljava/lang/String;
+all statements: [419]
+coveraged statements: [419]
+--------------------------------------------
+method: getBytesUtf16Be (Ljava/lang/String;)[B
+all statements: [235]
+coveraged statements: [235]
+--------------------------------------------
+method: getBytes (Ljava/lang/String;Ljava/nio/charset/Charset;)[B
+all statements: [94, 95, 97]
+coveraged statements: [94, 95, 97]
+--------------------------------------------
+method: newStringUsAscii ([B)Ljava/lang/String;
+all statements: [355]
+coveraged statements: [355]
+--------------------------------------------
+method: getBytesIso8859_1 (Ljava/lang/String;)[B
+all statements: [150]
+coveraged statements: [150]
+--------------------------------------------
+method: newStringUtf16Le ([B)Ljava/lang/String;
+all statements: [403]
+coveraged statements: [403]
+--------------------------------------------
+method: getBytesUtf16 (Ljava/lang/String;)[B
+all statements: [217]
+coveraged statements: [217]
+--------------------------------------------
+method: getBytesUsAscii (Ljava/lang/String;)[B
+all statements: [199]
+coveraged statements: [199]
+--------------------------------------------
+method: newStringUtf16 ([B)Ljava/lang/String;
+all statements: [371]
+coveraged statements: [371]
+--------------------------------------------
+method: equals (Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+all statements: [72, 73, 75, 76, 78, 79, 81]
+coveraged statements: [72, 73, 75, 76, 78, 79]
+--------------------------------------------
+method: getByteBuffer (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/nio/ByteBuffer;
+all statements: [111, 112, 114]
+coveraged statements: [111, 114]
+--------------------------------------------
+method: getBytesUnchecked (Ljava/lang/String;Ljava/lang/String;)[B
+all statements: [174, 175, 178, 179, 180]
+coveraged statements: [174, 175, 178, 179, 180]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/bm/Rule$PhonemeExpr
+
+class: org/apache/commons/codec/language/bm/Languages$1
+method: contains (Ljava/lang/String;)Z
+all statements: [214]
+coveraged statements: null
+--------------------------------------------
+method: <init> ()V
+all statements: [211]
+coveraged statements: [211]
+--------------------------------------------
+method: restrictTo (Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;
+all statements: [234]
+coveraged statements: null
+--------------------------------------------
+method: merge (Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;
+all statements: [239]
+coveraged statements: null
+--------------------------------------------
+method: isSingleton ()Z
+all statements: [229]
+coveraged statements: null
+--------------------------------------------
+method: getAny ()Ljava/lang/String;
+all statements: [219]
+coveraged statements: null
+--------------------------------------------
+method: toString ()Ljava/lang/String;
+all statements: [244]
+coveraged statements: null
+--------------------------------------------
+method: isEmpty ()Z
+all statements: [224]
+coveraged statements: null
+--------------------------------------------
+
+class: org/apache/commons/codec/language/bm/Languages$2
+method: contains (Ljava/lang/String;)Z
+all statements: [254]
+coveraged statements: null
+--------------------------------------------
+method: <init> ()V
+all statements: [251]
+coveraged statements: [251]
+--------------------------------------------
+method: restrictTo (Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;
+all statements: [274]
+coveraged statements: null
+--------------------------------------------
+method: merge (Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;
+all statements: [279]
+coveraged statements: null
+--------------------------------------------
+method: isSingleton ()Z
+all statements: [269]
+coveraged statements: null
+--------------------------------------------
+method: getAny ()Ljava/lang/String;
+all statements: [259]
+coveraged statements: null
+--------------------------------------------
+method: toString ()Ljava/lang/String;
+all statements: [284]
+coveraged statements: null
+--------------------------------------------
+method: isEmpty ()Z
+all statements: [264]
+coveraged statements: null
+--------------------------------------------
+
+class: org/apache/commons/codec/language/bm/RuleType
+method: <clinit> ()V
+all statements: [26, 29, 31, 33]
+coveraged statements: [26, 29, 31, 33]
+--------------------------------------------
+method: getName ()Ljava/lang/String;
+all statements: [47]
+coveraged statements: null
+--------------------------------------------
+method: <init> (Ljava/lang/String;ILjava/lang/String;)V
+all statements: [37, 38, 39]
+coveraged statements: [37, 38, 39]
+--------------------------------------------
+method: values ()[Lorg/apache/commons/codec/language/bm/RuleType;
+all statements: [26]
+coveraged statements: [26]
+--------------------------------------------
+method: valueOf (Ljava/lang/String;)Lorg/apache/commons/codec/language/bm/RuleType;
+all statements: [26]
+coveraged statements: [26]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/MatchRatingApproachEncoder
+method: <clinit> ()V
+all statements: [66]
+coveraged statements: [66]
+--------------------------------------------
+method: <init> ()V
+all statements: [32]
+coveraged statements: [32]
+--------------------------------------------
+method: isEncodeEquals (Ljava/lang/String;Ljava/lang/String;)Z
+all statements: [213, 214, 215, 216, 217, 218, 219, 220, 224, 225, 230, 231, 234, 235, 238, 239, 243, 244, 249, 250, 251, 255, 259]
+coveraged statements: [213, 214, 215, 216, 217, 218, 219, 220, 224, 225, 230, 231, 234, 235, 238, 239, 243, 244, 249, 250, 251, 255, 259]
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [127, 128, 132, 136, 139, 142, 144]
+coveraged statements: [127, 128, 132, 136, 139, 142, 144]
+--------------------------------------------
+method: getMinRating (I)I
+all statements: [184, 186, 187, 188, 189, 190, 191, 192, 193, 195, 198]
+coveraged statements: [184, 186, 187, 188, 189, 190, 191, 192, 193, 195, 198]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [110, 111, 114]
+coveraged statements: [110, 111, 114]
+--------------------------------------------
+method: removeAccents (Ljava/lang/String;)Ljava/lang/String;
+all statements: [350, 351, 354, 355, 357, 358, 359, 360, 361, 363, 367]
+coveraged statements: [350, 351, 354, 355, 357, 358, 359, 360, 361, 363, 367]
+--------------------------------------------
+method: getFirst3Last3 (Ljava/lang/String;)Ljava/lang/String;
+all statements: [160, 162, 163, 164, 165, 167]
+coveraged statements: [160, 162, 163, 164, 165, 167]
+--------------------------------------------
+method: cleanName (Ljava/lang/String;)Ljava/lang/String;
+all statements: [84, 86, 87, 88, 91, 92, 94]
+coveraged statements: [84, 86, 87, 88, 91, 92, 94]
+--------------------------------------------
+method: isVowel (Ljava/lang/String;)Z
+all statements: [276, 277]
+coveraged statements: [276, 277]
+--------------------------------------------
+method: removeVowels (Ljava/lang/String;)Ljava/lang/String;
+all statements: [407, 409, 410, 411, 412, 413, 415, 418, 419, 421]
+coveraged statements: [407, 409, 410, 411, 412, 413, 415, 418, 419, 421]
+--------------------------------------------
+method: removeDoubleConsonants (Ljava/lang/String;)Ljava/lang/String;
+all statements: [383, 384, 385, 386, 387, 390]
+coveraged statements: [383, 384, 385, 386, 387, 390]
+--------------------------------------------
+method: leftToRightThenRightToLeftProcessing (Ljava/lang/String;Ljava/lang/String;)I
+all statements: [294, 295, 297, 298, 300, 301, 303, 304, 306, 307, 308, 311, 312, 314, 315, 318, 319, 320, 324, 325, 326, 331, 332, 335, 336, 338]
+coveraged statements: [294, 295, 297, 298, 300, 301, 303, 304, 306, 307, 308, 311, 312, 314, 315, 318, 319, 320, 324, 325, 326, 331, 332, 335, 336, 338]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/bm/NameType
+method: <clinit> ()V
+all statements: [28, 31, 34, 37]
+coveraged statements: [28, 31, 34, 37]
+--------------------------------------------
+method: getName ()Ljava/lang/String;
+all statements: [51]
+coveraged statements: [51]
+--------------------------------------------
+method: valueOf (Ljava/lang/String;)Lorg/apache/commons/codec/language/bm/NameType;
+all statements: [28]
+coveraged statements: [28]
+--------------------------------------------
+method: <init> (Ljava/lang/String;ILjava/lang/String;)V
+all statements: [41, 42, 43]
+coveraged statements: [41, 42, 43]
+--------------------------------------------
+method: values ()[Lorg/apache/commons/codec/language/bm/NameType;
+all statements: [28]
+coveraged statements: [28]
+--------------------------------------------
+
+class: org/apache/commons/codec/digest/Sha2Crypt
+method: sha256Crypt ([B)Ljava/lang/String;
+all statements: [83]
+coveraged statements: [83]
+--------------------------------------------
+method: <clinit> ()V
+all statements: [68, 69]
+coveraged statements: [68, 69]
+--------------------------------------------
+method: <init> ()V
+all statements: [41]
+coveraged statements: [41]
+--------------------------------------------
+method: sha256Crypt ([BLjava/lang/String;)Ljava/lang/String;
+all statements: [102, 103, 105]
+coveraged statements: [102, 103, 105]
+--------------------------------------------
+method: sha2Crypt ([BLjava/lang/String;Ljava/lang/String;ILjava/lang/String;)Ljava/lang/String;
+all statements: [136, 139, 140, 141, 142, 145, 146, 147, 149, 150, 151, 152, 154, 155, 156, 160, 166, 181, 188, 194, 200, 206, 212, 222, 223, 224, 225, 230, 246, 247, 248, 249, 251, 253, 260, 266, 275, 276, 283, 295, 296, 297, 298, 299, 301, 307, 316, 317, 324, 337, 338, 339, 340, 341, 343, 356, 361, 368, 369, 371, 378, 379, 386, 387, 395, 396, 398, 405, 423, 424, 425, 426, 427, 429, 430, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 498, 499, 500, 501, 502, 503, 504, 506]
+coveraged statements: [136, 139, 140, 141, 145, 146, 147, 149, 150, 151, 152, 154, 155, 156, 160, 166, 181, 188, 194, 200, 206, 212, 222, 223, 224, 225, 230, 246, 247, 248, 249, 251, 253, 260, 266, 275, 276, 283, 295, 296, 297, 298, 299, 301, 307, 316, 317, 324, 337, 338, 339, 343, 356, 361, 368, 369, 371, 378, 379, 386, 387, 395, 396, 398, 405, 423, 424, 425, 426, 427, 429, 430, 456, 457, 458, 459, 460, 461, 462, 463, 464, 465, 466, 467, 469, 470, 471, 472, 473, 474, 475, 476, 477, 478, 479, 480, 481, 482, 483, 484, 485, 486, 487, 488, 489, 490, 498, 499, 500, 501, 502, 503, 504, 506]
+--------------------------------------------
+method: sha512Crypt ([BLjava/lang/String;)Ljava/lang/String;
+all statements: [540, 541, 543]
+coveraged statements: [540, 541, 543]
+--------------------------------------------
+method: sha512Crypt ([B)Ljava/lang/String;
+all statements: [521]
+coveraged statements: [521]
+--------------------------------------------
+
+class: org/apache/commons/codec/Encoder
+
+class: org/apache/commons/codec/net/BCodec
+method: <init> ()V
+all statements: [56, 57]
+coveraged statements: [56, 57]
+--------------------------------------------
+method: getEncoding ()Ljava/lang/String;
+all statements: [88]
+coveraged statements: [88]
+--------------------------------------------
+method: encode (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+all statements: [120, 121, 123]
+coveraged statements: [120, 123]
+--------------------------------------------
+method: getDefaultCharset ()Ljava/lang/String;
+all statements: [249]
+coveraged statements: null
+--------------------------------------------
+method: getCharset ()Ljava/nio/charset/Charset;
+all statements: [240]
+coveraged statements: [240]
+--------------------------------------------
+method: doEncoding ([B)[B
+all statements: [93, 94, 96]
+coveraged statements: [93, 94, 96]
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [159, 160, 162]
+coveraged statements: [159, 160, 162]
+--------------------------------------------
+method: decode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [177, 178, 181, 182, 183]
+coveraged statements: [177, 178, 181]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [198, 199, 200, 201, 203, 204]
+coveraged statements: [198, 199, 200, 201, 203, 204]
+--------------------------------------------
+method: decode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [222, 223, 224, 225, 227, 228]
+coveraged statements: [222, 223, 224, 225, 227, 228]
+--------------------------------------------
+method: doDecoding ([B)[B
+all statements: [101, 102, 104]
+coveraged statements: [101, 102, 104]
+--------------------------------------------
+method: <init> (Ljava/lang/String;)V
+all statements: [83, 84]
+coveraged statements: [83, 84]
+--------------------------------------------
+method: encode (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [138, 139, 142, 143, 144]
+coveraged statements: [138, 139]
+--------------------------------------------
+method: <init> (Ljava/nio/charset/Charset;)V
+all statements: [68, 69, 70]
+coveraged statements: [68, 69, 70]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/bm/Rule$Phoneme
+method: <clinit> ()V
+all statements: [85]
+coveraged statements: [85]
+--------------------------------------------
+method: append (Ljava/lang/CharSequence;)Lorg/apache/commons/codec/language/bm/Rule$Phoneme;
+all statements: [125, 126]
+coveraged statements: null
+--------------------------------------------
+method: getPhonemeText ()Ljava/lang/CharSequence;
+all statements: [139]
+coveraged statements: [139]
+--------------------------------------------
+method: getLanguages ()Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;
+all statements: [130]
+coveraged statements: null
+--------------------------------------------
+method: access$000 (Lorg/apache/commons/codec/language/bm/Rule$Phoneme;)Ljava/lang/StringBuilder;
+all statements: [84]
+coveraged statements: [84]
+--------------------------------------------
+method: <init> (Lorg/apache/commons/codec/language/bm/Rule$Phoneme;Lorg/apache/commons/codec/language/bm/Rule$Phoneme;Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)V
+all statements: [120, 121, 122]
+coveraged statements: null
+--------------------------------------------
+method: <init> (Ljava/lang/CharSequence;Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)V
+all statements: [109, 110, 111, 112]
+coveraged statements: [109, 110, 111, 112]
+--------------------------------------------
+method: <init> (Lorg/apache/commons/codec/language/bm/Rule$Phoneme;Lorg/apache/commons/codec/language/bm/Rule$Phoneme;)V
+all statements: [115, 116, 117]
+coveraged statements: [115, 116, 117]
+--------------------------------------------
+method: join (Lorg/apache/commons/codec/language/bm/Rule$Phoneme;)Lorg/apache/commons/codec/language/bm/Rule$Phoneme;
+all statements: [151, 152]
+coveraged statements: null
+--------------------------------------------
+method: toString ()Ljava/lang/String;
+all statements: [168]
+coveraged statements: null
+--------------------------------------------
+method: getPhonemes ()Ljava/lang/Iterable;
+all statements: [135]
+coveraged statements: null
+--------------------------------------------
+method: mergeWithLanguage (Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;)Lorg/apache/commons/codec/language/bm/Rule$Phoneme;
+all statements: [163]
+coveraged statements: null
+--------------------------------------------
+
+class: org/apache/commons/codec/language/ColognePhonetic
+method: <clinit> ()V
+all statements: [185, 186, 187, 188, 189, 190, 191, 192, 193, 289]
+coveraged statements: [185, 186, 187, 188, 189, 190, 191, 192, 193, 289]
+--------------------------------------------
+method: <init> ()V
+all statements: [182]
+coveraged statements: [182]
+--------------------------------------------
+method: isEncodeEqual (Ljava/lang/String;Ljava/lang/String;)Z
+all statements: [422]
+coveraged statements: [422]
+--------------------------------------------
+method: preprocess (Ljava/lang/String;)Ljava/lang/String;
+all statements: [429, 431, 433, 434, 435, 436, 437, 438, 443]
+coveraged statements: [429, 431, 433, 434, 435, 436, 437, 438, 443]
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [418]
+coveraged statements: [418]
+--------------------------------------------
+method: colognePhonetic (Ljava/lang/String;)Ljava/lang/String;
+all statements: [320, 321, 324, 326, 327, 331, 332, 336, 338, 339, 341, 342, 344, 347, 348, 349, 350, 351, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 373, 376, 377, 379, 382, 383, 384, 385, 386, 387, 388, 389, 391, 394, 395, 398, 399, 401]
+coveraged statements: [320, 321, 324, 326, 327, 331, 332, 336, 338, 339, 341, 342, 344, 347, 348, 349, 350, 351, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 364, 365, 366, 367, 368, 369, 370, 371, 376, 377, 379, 382, 383, 384, 385, 386, 387, 388, 389, 394, 395, 398, 399, 401]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [406, 407, 408, 410, 413]
+coveraged statements: [406, 407, 408, 410, 413]
+--------------------------------------------
+method: arrayContains ([CC)Z
+all statements: [300, 301, 302, 305]
+coveraged statements: [300, 301, 302, 305]
+--------------------------------------------
+
+class: org/apache/commons/codec/binary/Base32
+method: <init> (B)V
+all statements: [170, 171]
+coveraged statements: [170, 171]
+--------------------------------------------
+method: <init> (I[B)V
+all statements: [230, 231]
+coveraged statements: [230, 231]
+--------------------------------------------
+method: isInAlphabet (B)Z
+all statements: [536]
+coveraged statements: [536]
+--------------------------------------------
+method: <clinit> ()V
+all statements: [60, 67, 81, 92, 106]
+coveraged statements: [60, 67, 81, 92, 106]
+--------------------------------------------
+method: <init> ()V
+all statements: [159, 160]
+coveraged statements: [159, 160]
+--------------------------------------------
+method: <init> (I[BZ)V
+all statements: [255, 256]
+coveraged statements: null
+--------------------------------------------
+method: <init> (ZB)V
+all statements: [193, 194]
+coveraged statements: [193, 194]
+--------------------------------------------
+method: <init> (I[BZB)V
+all statements: [281, 283, 284, 285, 287, 288, 290, 291, 292, 295, 296, 297, 299, 300, 301, 303, 304, 306, 308, 309, 311]
+coveraged statements: [281, 283, 284, 285, 287, 288, 290, 291, 295, 299, 300, 301, 303, 304, 306, 308, 311]
+--------------------------------------------
+method: <init> (Z)V
+all statements: [181, 182]
+coveraged statements: [181, 182]
+--------------------------------------------
+method: encode ([BIILorg/apache/commons/codec/binary/BaseNCodec$Context;)V
+all statements: [434, 435, 439, 440, 441, 442, 444, 445, 446, 448, 450, 451, 452, 453, 454, 455, 456, 457, 458, 460, 461, 462, 463, 464, 465, 466, 467, 468, 470, 471, 472, 473, 474, 475, 476, 477, 478, 480, 481, 482, 483, 484, 485, 486, 487, 488, 490, 492, 494, 495, 496, 498, 499, 500, 501, 502, 503, 504, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 525]
+coveraged statements: [434, 435, 439, 440, 441, 442, 444, 445, 446, 448, 450, 451, 452, 453, 454, 455, 456, 457, 458, 460, 461, 462, 463, 464, 465, 466, 467, 468, 470, 471, 472, 473, 474, 475, 476, 477, 478, 480, 481, 482, 483, 484, 485, 486, 487, 488, 492, 494, 495, 496, 498, 499, 500, 501, 502, 503, 504, 506, 507, 508, 509, 510, 511, 512, 513, 514, 515, 516, 517, 518, 519, 520, 525]
+--------------------------------------------
+method: <init> (I)V
+all statements: [208, 209]
+coveraged statements: [208, 209]
+--------------------------------------------
+method: decode ([BIILorg/apache/commons/codec/binary/BaseNCodec$Context;)V
+all statements: [339, 340, 342, 343, 345, 346, 347, 349, 350, 352, 353, 354, 355, 356, 358, 359, 360, 361, 362, 363, 364, 373, 374, 377, 379, 380, 382, 383, 385, 386, 387, 388, 390, 391, 392, 393, 394, 396, 397, 398, 399, 400, 402, 403, 404, 405, 406, 407, 410, 413]
+coveraged statements: [339, 340, 342, 343, 345, 346, 347, 349, 350, 352, 353, 354, 355, 356, 358, 359, 360, 361, 362, 363, 364, 373, 374, 377, 379, 380, 385, 386, 387, 388, 390, 391, 392, 393, 394, 402, 403, 404, 405, 406, 407, 413]
+--------------------------------------------
+
+class: org/apache/commons/codec/binary/Base64InputStream
+method: <init> (Ljava/io/InputStream;ZI[B)V
+all statements: [86, 87]
+coveraged statements: [86, 87]
+--------------------------------------------
+method: <init> (Ljava/io/InputStream;)V
+all statements: [52, 53]
+coveraged statements: [52, 53]
+--------------------------------------------
+method: <init> (Ljava/io/InputStream;Z)V
+all statements: [65, 66]
+coveraged statements: [65, 66]
+--------------------------------------------
+
+class: org/apache/commons/codec/binary/BinaryCodec
+method: <clinit> ()V
+all statements: [42, 45, 71]
+coveraged statements: [42, 45, 71]
+--------------------------------------------
+method: <init> ()V
+all statements: [36]
+coveraged statements: [36]
+--------------------------------------------
+method: decode ([B)[B
+all statements: [141]
+coveraged statements: [141]
+--------------------------------------------
+method: isEmpty ([B)Z
+all statements: [226]
+coveraged statements: [226]
+--------------------------------------------
+method: fromAscii ([B)[B
+all statements: [199, 200, 203, 208, 209, 210, 211, 215]
+coveraged statements: [199, 200, 203, 208, 209, 210, 211, 215]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [98, 99, 101]
+coveraged statements: [98, 99, 101]
+--------------------------------------------
+method: fromAscii ([C)[B
+all statements: [172, 173, 176, 181, 182, 183, 184, 188]
+coveraged statements: [172, 173, 176, 181, 182, 183, 184, 188]
+--------------------------------------------
+method: toAsciiChars ([B)[C
+all statements: [269, 270, 273, 278, 279, 280, 281, 283, 287]
+coveraged statements: [269, 270, 273, 278, 279, 280, 281, 283, 287]
+--------------------------------------------
+method: decode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [116, 117, 119, 120, 122, 123, 125, 126, 128]
+coveraged statements: [116, 117, 119, 120, 122, 123, 125, 126, 128]
+--------------------------------------------
+method: toAsciiString ([B)Ljava/lang/String;
+all statements: [299]
+coveraged statements: [299]
+--------------------------------------------
+method: toAsciiBytes ([B)[B
+all statements: [239, 240, 243, 248, 249, 250, 251, 253, 257]
+coveraged statements: [239, 240, 243, 248, 249, 250, 251, 253, 257]
+--------------------------------------------
+method: encode ([B)[B
+all statements: [83]
+coveraged statements: [83]
+--------------------------------------------
+method: toByteArray (Ljava/lang/String;)[B
+all statements: [153, 154, 156]
+coveraged statements: [153, 154, 156]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/bm/BeiderMorseEncoder
+method: setMaxPhonemes (I)V
+all statements: [178, 179, 180, 182]
+coveraged statements: null
+--------------------------------------------
+method: <init> ()V
+all statements: [79, 84]
+coveraged statements: [79, 84]
+--------------------------------------------
+method: getRuleType ()Lorg/apache/commons/codec/language/bm/RuleType;
+all statements: [117]
+coveraged statements: null
+--------------------------------------------
+method: setRuleType (Lorg/apache/commons/codec/language/bm/RuleType;)V
+all statements: [164, 166, 167, 168]
+coveraged statements: null
+--------------------------------------------
+method: getNameType ()Lorg/apache/commons/codec/language/bm/NameType;
+all statements: [108]
+coveraged statements: null
+--------------------------------------------
+method: setConcat (Z)V
+all statements: [137, 138, 140, 141]
+coveraged statements: null
+--------------------------------------------
+method: isConcat ()Z
+all statements: [126]
+coveraged statements: null
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [96, 97, 99]
+coveraged statements: null
+--------------------------------------------
+method: setNameType (Lorg/apache/commons/codec/language/bm/NameType;)V
+all statements: [151, 152, 153, 154, 155]
+coveraged statements: null
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [88, 89, 91]
+coveraged statements: null
+--------------------------------------------
+
+class: org/apache/commons/codec/digest/PureJavaCrc32
+method: <clinit> ()V
+all statements: [110]
+coveraged statements: [110]
+--------------------------------------------
+method: <init> ()V
+all statements: [48, 49, 50]
+coveraged statements: [48, 49, 50]
+--------------------------------------------
+method: getValue ()J
+all statements: [54]
+coveraged statements: [54]
+--------------------------------------------
+method: reset ()V
+all statements: [59, 60]
+coveraged statements: [59, 60]
+--------------------------------------------
+method: _reset ()V
+all statements: [64, 65]
+coveraged statements: [64, 65]
+--------------------------------------------
+method: update ([BII)V
+all statements: [69, 71, 72, 73, 74, 78, 85, 86, 87, 88, 89, 90, 91, 92, 98, 99]
+coveraged statements: [69, 71, 72, 73, 74, 78, 85, 86, 87, 88, 89, 90, 91, 92, 98, 99]
+--------------------------------------------
+method: update (I)V
+all statements: [103, 104]
+coveraged statements: [103, 104]
+--------------------------------------------
+
+class: org/apache/commons/codec/binary/BaseNCodec
+method: decode ([B)[B
+all statements: [406, 407, 409, 410, 411, 412, 413, 414]
+coveraged statements: [406, 407, 409, 410, 411, 412, 413, 414]
+--------------------------------------------
+method: ensureBufferSize (ILorg/apache/commons/codec/binary/BaseNCodec$Context;)[B
+all statements: [269, 270, 272]
+coveraged statements: [269, 270, 272]
+--------------------------------------------
+method: decode (Ljava/lang/String;)[B
+all statements: [394]
+coveraged statements: [394]
+--------------------------------------------
+method: getEncodedLength ([B)J
+all statements: [538, 539, 541, 543]
+coveraged statements: [538, 539, 541, 543]
+--------------------------------------------
+method: <init> (IIIIB)V
+all statements: [159, 205, 206, 207, 208, 209, 210, 212, 213]
+coveraged statements: [159, 205, 206, 207, 208, 209, 210, 212, 213]
+--------------------------------------------
+method: encodeToString ([B)Ljava/lang/String;
+all statements: [350]
+coveraged statements: [350]
+--------------------------------------------
+method: readResults ([BIILorg/apache/commons/codec/binary/BaseNCodec$Context;)I
+all statements: [292, 293, 294, 295, 296, 297, 299, 301]
+coveraged statements: [292, 293, 294, 295, 296, 297, 299, 301]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [335, 336, 338]
+coveraged statements: [335, 336, 338]
+--------------------------------------------
+method: decode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [377, 378, 379, 380, 382]
+coveraged statements: [377, 378, 379, 380, 382]
+--------------------------------------------
+method: isInAlphabet ([BZ)Z
+all statements: [484, 485, 486, 487, 490]
+coveraged statements: [484, 485, 486, 487, 490]
+--------------------------------------------
+method: hasData (Lorg/apache/commons/codec/binary/BaseNCodec$Context;)Z
+all statements: [222]
+coveraged statements: [222]
+--------------------------------------------
+method: isWhiteSpace (B)Z
+all statements: [312, 317, 319]
+coveraged statements: [312, 317, 319]
+--------------------------------------------
+method: encodeAsString ([B)Ljava/lang/String;
+all statements: [361]
+coveraged statements: [361]
+--------------------------------------------
+method: encode ([BII)[B
+all statements: [446, 447, 449, 450, 451, 452, 453, 454]
+coveraged statements: [446, 449, 450, 451, 452, 453, 454]
+--------------------------------------------
+method: <init> (IIII)V
+all statements: [192, 193]
+coveraged statements: [192, 193]
+--------------------------------------------
+method: resizeBuffer (Lorg/apache/commons/codec/binary/BaseNCodec$Context;)[B
+all statements: [249, 250, 251, 252, 254, 255, 256, 258]
+coveraged statements: [249, 250, 251, 252, 254, 255, 256, 258]
+--------------------------------------------
+method: getDefaultBufferSize ()I
+all statements: [241]
+coveraged statements: [241]
+--------------------------------------------
+method: available (Lorg/apache/commons/codec/binary/BaseNCodec$Context;)I
+all statements: [232]
+coveraged statements: [232]
+--------------------------------------------
+method: isInAlphabet (Ljava/lang/String;)Z
+all statements: [503]
+coveraged statements: [503]
+--------------------------------------------
+method: containsAlphabetOrPad ([B)Z
+all statements: [516, 517, 519, 520, 521, 524]
+coveraged statements: [516, 517, 519, 520, 521, 524]
+--------------------------------------------
+method: encode ([B)[B
+all statements: [426, 427, 429]
+coveraged statements: [426, 427, 429]
+--------------------------------------------
+
+class: org/apache/commons/codec/StringEncoder
+
+class: org/apache/commons/codec/net/QCodec
+method: <clinit> ()V
+all statements: [61, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 84, 85, 86, 87, 88, 89, 90, 92, 93, 94, 95, 96, 97, 98, 100, 101, 102, 103, 104]
+coveraged statements: [61, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 84, 85, 86, 87, 88, 89, 90, 92, 93, 94, 95, 96, 97, 98, 100, 101, 102, 103, 104]
+--------------------------------------------
+method: <init> ()V
+all statements: [116, 117]
+coveraged statements: [116, 117]
+--------------------------------------------
+method: getEncoding ()Ljava/lang/String;
+all statements: [149]
+coveraged statements: [149]
+--------------------------------------------
+method: encode (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+all statements: [208, 209, 211]
+coveraged statements: [208, 211]
+--------------------------------------------
+method: getDefaultCharset ()Ljava/lang/String;
+all statements: [337]
+coveraged statements: null
+--------------------------------------------
+method: getCharset ()Ljava/nio/charset/Charset;
+all statements: [328]
+coveraged statements: [328]
+--------------------------------------------
+method: isEncodeBlanks ()Z
+all statements: [346]
+coveraged statements: [346]
+--------------------------------------------
+method: doEncoding ([B)[B
+all statements: [154, 155, 157, 158, 159, 160, 161, 165]
+coveraged statements: [154, 155, 157, 158, 159, 160, 161, 165]
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [247, 248, 250]
+coveraged statements: [247, 248, 250]
+--------------------------------------------
+method: decode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [265, 266, 269, 270, 271]
+coveraged statements: [265, 266, 269]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [286, 287, 288, 289, 291, 292]
+coveraged statements: [286, 287, 288, 289, 291, 292]
+--------------------------------------------
+method: decode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [310, 311, 312, 313, 315, 316]
+coveraged statements: [310, 311, 312, 313, 315, 316]
+--------------------------------------------
+method: doDecoding ([B)[B
+all statements: [170, 171, 173, 174, 175, 176, 177, 180, 181, 182, 183, 184, 185, 187, 190, 192]
+coveraged statements: [170, 171, 173, 174, 175, 176, 177, 180, 181, 182, 183, 184, 185, 187, 190, 192]
+--------------------------------------------
+method: setEncodeBlanks (Z)V
+all statements: [356, 357]
+coveraged statements: [356, 357]
+--------------------------------------------
+method: <init> (Ljava/lang/String;)V
+all statements: [144, 145]
+coveraged statements: [144, 145]
+--------------------------------------------
+method: encode (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [226, 227, 230, 231, 232]
+coveraged statements: [226, 227]
+--------------------------------------------
+method: <init> (Ljava/nio/charset/Charset;)V
+all statements: [110, 129, 130, 131]
+coveraged statements: [110, 129, 130, 131]
+--------------------------------------------
+
+class: org/apache/commons/codec/Decoder
+
+class: org/apache/commons/codec/CharEncoding
+method: <init> ()V
+all statements: [58]
+coveraged statements: [58]
+--------------------------------------------
+
+class: org/apache/commons/codec/binary/Codec105ErrorInputStream
+method: <init> ()V
+all statements: [31, 34]
+coveraged statements: [31, 34]
+--------------------------------------------
+method: read ()I
+all statements: [38, 39, 41]
+coveraged statements: null
+--------------------------------------------
+method: read ([BII)I
+all statements: [46, 47, 48, 50]
+coveraged statements: [46, 47, 48, 50]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/ColognePhonetic$CologneBuffer
+method: <init> (Lorg/apache/commons/codec/language/ColognePhonetic;I)V
+all statements: [204, 211, 212, 213, 214]
+coveraged statements: [204, 211, 212, 213, 214]
+--------------------------------------------
+method: length ()I
+all statements: [219]
+coveraged statements: [219]
+--------------------------------------------
+method: <init> (Lorg/apache/commons/codec/language/ColognePhonetic;[C)V
+all statements: [204, 206, 207, 208, 209]
+coveraged statements: [204, 206, 207, 208, 209]
+--------------------------------------------
+method: toString ()Ljava/lang/String;
+all statements: [224]
+coveraged statements: [224]
+--------------------------------------------
+
+class: org/apache/commons/codec/binary/Hex
+method: <clinit> ()V
+all statements: [46, 58, 64]
+coveraged statements: [46, 58, 64]
+--------------------------------------------
+method: decodeHex (Ljava/lang/String;)[B
+all statements: [80]
+coveraged statements: [80]
+--------------------------------------------
+method: encodeHexString ([B)Ljava/lang/String;
+all statements: [226]
+coveraged statements: [226]
+--------------------------------------------
+method: decodeHex ([C)[B
+all statements: [96, 98, 99, 102, 105, 106, 107, 108, 109, 110, 113]
+coveraged statements: [96, 98, 99, 102, 105, 106, 107, 108, 109, 110, 113]
+--------------------------------------------
+method: encodeHexString (Ljava/nio/ByteBuffer;Z)Ljava/lang/String;
+all statements: [269]
+coveraged statements: [269]
+--------------------------------------------
+method: getCharset ()Ljava/nio/charset/Charset;
+all statements: [469]
+coveraged statements: [469]
+--------------------------------------------
+method: encodeHex (Ljava/nio/ByteBuffer;Z)[C
+all statements: [172]
+coveraged statements: [172]
+--------------------------------------------
+method: decode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [375, 376, 377, 378, 379, 380, 383, 384, 385]
+coveraged statements: [375, 376, 377, 378, 379, 380, 383, 384, 385]
+--------------------------------------------
+method: encodeHex (Ljava/nio/ByteBuffer;)[C
+all statements: [140]
+coveraged statements: [140]
+--------------------------------------------
+method: <init> (Ljava/nio/charset/Charset;)V
+all statements: [308, 309, 310]
+coveraged statements: [308, 309, 310]
+--------------------------------------------
+method: toString ()Ljava/lang/String;
+all statements: [489]
+coveraged statements: [489]
+--------------------------------------------
+method: encodeHexString ([BZ)Ljava/lang/String;
+all statements: [241]
+coveraged statements: [241]
+--------------------------------------------
+method: encodeHex ([B)[C
+all statements: [126]
+coveraged statements: [126]
+--------------------------------------------
+method: encode ([B)[B
+all statements: [407]
+coveraged statements: [407]
+--------------------------------------------
+method: <init> ()V
+all statements: [296, 298, 299]
+coveraged statements: [296, 298, 299]
+--------------------------------------------
+method: decode ([B)[B
+all statements: [340]
+coveraged statements: [340]
+--------------------------------------------
+method: encode (Ljava/nio/ByteBuffer;)[B
+all statements: [426]
+coveraged statements: [426]
+--------------------------------------------
+method: encodeHex ([BZ)[C
+all statements: [156]
+coveraged statements: [156]
+--------------------------------------------
+method: toDigit (CI)I
+all statements: [284, 285, 286, 288]
+coveraged statements: [284, 285, 286, 288]
+--------------------------------------------
+method: decode (Ljava/nio/ByteBuffer;)[B
+all statements: [357]
+coveraged statements: [357]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [448, 449, 450, 451, 454, 455, 456, 457, 459]
+coveraged statements: [448, 449, 450, 451, 454, 455, 456, 457, 459]
+--------------------------------------------
+method: encodeHex (Ljava/nio/ByteBuffer;[C)[C
+all statements: [213]
+coveraged statements: [213]
+--------------------------------------------
+method: encodeHex ([B[C)[C
+all statements: [189, 190, 192, 193, 194, 196]
+coveraged statements: [189, 190, 192, 193, 194, 196]
+--------------------------------------------
+method: encodeHexString (Ljava/nio/ByteBuffer;)Ljava/lang/String;
+all statements: [254]
+coveraged statements: [254]
+--------------------------------------------
+method: <init> (Ljava/lang/String;)V
+all statements: [323, 324]
+coveraged statements: [323, 324]
+--------------------------------------------
+method: getCharsetName ()Ljava/lang/String;
+all statements: [479]
+coveraged statements: [479]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/Metaphone
+method: isVowel (Ljava/lang/StringBuilder;I)Z
+all statements: [339]
+coveraged statements: [339]
+--------------------------------------------
+method: isLastChar (II)Z
+all statements: [371]
+coveraged statements: [371]
+--------------------------------------------
+method: <init> ()V
+all statements: [73, 79, 80]
+coveraged statements: [73, 79, 80]
+--------------------------------------------
+method: isMetaphoneEqual (Ljava/lang/String;Ljava/lang/String;)Z
+all statements: [415]
+coveraged statements: [415]
+--------------------------------------------
+method: regionMatch (Ljava/lang/StringBuilder;ILjava/lang/String;)Z
+all statements: [361, 362, 363, 364, 365, 367]
+coveraged statements: [361, 362, 363, 364, 365, 367]
+--------------------------------------------
+method: getMaxCodeLen ()I
+all statements: [422]
+coveraged statements: [422]
+--------------------------------------------
+method: setMaxCodeLen (I)V
+all statements: [428]
+coveraged statements: [428]
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [403]
+coveraged statements: [403]
+--------------------------------------------
+method: metaphone (Ljava/lang/String;)Ljava/lang/String;
+all statements: [93, 95, 96, 99, 100, 103, 105, 106, 108, 112, 113, 115, 117, 119, 120, 122, 124, 126, 127, 128, 130, 131, 132, 134, 136, 138, 139, 140, 142, 145, 146, 148, 150, 152, 153, 155, 161, 162, 166, 167, 168, 170, 171, 174, 175, 176, 177, 179, 180, 181, 183, 184, 185, 186, 188, 189, 190, 191, 193, 194, 196, 197, 199, 202, 204, 206, 207, 208, 209, 211, 213, 215, 216, 217, 219, 220, 221, 222, 224, 225, 226, 227, 229, 231, 233, 235, 236, 238, 240, 242, 244, 245, 247, 248, 249, 251, 252, 261, 262, 264, 265, 266, 269, 271, 273, 275, 277, 279, 281, 282, 284, 285, 286, 287, 289, 291, 293, 294, 295, 296, 298, 300, 303, 304, 306, 308, 310, 313, 314, 315, 319, 320, 321, 323, 324, 329, 331, 332, 334, 335]
+coveraged statements: [93, 95, 96, 99, 100, 103, 105, 106, 108, 112, 113, 115, 117, 119, 120, 122, 124, 126, 127, 128, 130, 131, 132, 134, 136, 138, 139, 140, 142, 145, 146, 148, 150, 152, 153, 155, 161, 162, 166, 167, 168, 170, 171, 174, 175, 176, 177, 179, 180, 181, 183, 184, 185, 186, 188, 189, 190, 191, 193, 194, 196, 197, 199, 202, 204, 206, 207, 208, 209, 211, 213, 215, 216, 217, 219, 220, 221, 222, 224, 225, 226, 229, 233, 235, 236, 238, 240, 242, 244, 245, 247, 248, 249, 251, 252, 261, 262, 264, 265, 266, 269, 271, 273, 275, 277, 279, 281, 282, 284, 285, 286, 287, 289, 291, 293, 294, 295, 296, 298, 300, 303, 304, 306, 308, 310, 313, 314, 315, 319, 320, 321, 323, 324, 329, 331, 332, 334, 335]
+--------------------------------------------
+method: isNextChar (Ljava/lang/StringBuilder;IC)Z
+all statements: [352, 353, 354, 355, 357]
+coveraged statements: [352, 353, 354, 355, 357]
+--------------------------------------------
+method: isPreviousChar (Ljava/lang/StringBuilder;IC)Z
+all statements: [343, 344, 345, 346, 348]
+coveraged statements: [343, 344, 345, 346, 348]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [389, 390, 392]
+coveraged statements: [389, 390, 392]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/DaitchMokotoffSoundex$1
+method: <init> ()V
+all statements: [244]
+coveraged statements: [244]
+--------------------------------------------
+method: compare (Ljava/lang/Object;Ljava/lang/Object;)I
+all statements: [244]
+coveraged statements: [244]
+--------------------------------------------
+method: compare (Lorg/apache/commons/codec/language/DaitchMokotoffSoundex$Rule;Lorg/apache/commons/codec/language/DaitchMokotoffSoundex$Rule;)I
+all statements: [247]
+coveraged statements: [247]
+--------------------------------------------
+
+class: org/apache/commons/codec/binary/BaseNCodecOutputStream
+method: flush (Z)V
+all statements: [117, 118, 119, 120, 121, 122, 125, 126, 128]
+coveraged statements: [117, 118, 119, 120, 121, 122, 125, 126, 128]
+--------------------------------------------
+method: write ([BII)V
+all statements: [91, 92, 93, 94, 95, 96, 97, 98, 99, 101, 103, 105]
+coveraged statements: [91, 92, 93, 94, 95, 96, 97, 98, 99, 101, 103, 105]
+--------------------------------------------
+method: write (I)V
+all statements: [67, 68, 69]
+coveraged statements: [67, 68, 69]
+--------------------------------------------
+method: flush ()V
+all statements: [138, 139]
+coveraged statements: [138, 139]
+--------------------------------------------
+method: <init> (Ljava/io/OutputStream;Lorg/apache/commons/codec/binary/BaseNCodec;Z)V
+all statements: [46, 48, 52, 53, 54, 55]
+coveraged statements: [46, 48, 52, 53, 54, 55]
+--------------------------------------------
+method: eof ()V
+all statements: [169, 170, 172, 174]
+coveraged statements: [169, 170, 172, 174]
+--------------------------------------------
+method: close ()V
+all statements: [155, 156, 157, 158]
+coveraged statements: [155, 156, 157, 158]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/SoundexUtils
+method: <init> ()V
+all statements: [31]
+coveraged statements: [31]
+--------------------------------------------
+method: differenceEncoded (Ljava/lang/String;Ljava/lang/String;)I
+all statements: [111, 112, 114, 115, 116, 117, 118, 121]
+coveraged statements: [111, 112, 114, 115, 116, 117, 118, 121]
+--------------------------------------------
+method: clean (Ljava/lang/String;)Ljava/lang/String;
+all statements: [42, 43, 45, 46, 47, 48, 49, 50, 53, 54, 56]
+coveraged statements: [42, 43, 45, 46, 47, 48, 49, 50, 53, 54, 56]
+--------------------------------------------
+method: difference (Lorg/apache/commons/codec/StringEncoder;Ljava/lang/String;Ljava/lang/String;)I
+all statements: [86]
+coveraged statements: [86]
+--------------------------------------------
+
+class: org/apache/commons/codec/StringDecoder
+
+class: org/apache/commons/codec/BinaryEncoder
+
+class: org/apache/commons/codec/binary/Base64OutputStream
+method: <init> (Ljava/io/OutputStream;ZI[B)V
+all statements: [90, 91]
+coveraged statements: [90, 91]
+--------------------------------------------
+method: <init> (Ljava/io/OutputStream;Z)V
+all statements: [69, 70]
+coveraged statements: [69, 70]
+--------------------------------------------
+method: <init> (Ljava/io/OutputStream;)V
+all statements: [56, 57]
+coveraged statements: [56, 57]
+--------------------------------------------
+
+class: org/apache/commons/codec/digest/Crypt
+method: <init> ()V
+all statements: [31]
+coveraged statements: [31]
+--------------------------------------------
+method: crypt ([B)Ljava/lang/String;
+all statements: [46]
+coveraged statements: [46]
+--------------------------------------------
+method: crypt ([BLjava/lang/String;)Ljava/lang/String;
+all statements: [66, 67, 68, 69, 70, 71, 72, 73, 75]
+coveraged statements: [66, 67, 68, 69, 70, 71, 72, 73, 75]
+--------------------------------------------
+method: crypt (Ljava/lang/String;)Ljava/lang/String;
+all statements: [92]
+coveraged statements: [92]
+--------------------------------------------
+method: crypt (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [151]
+coveraged statements: [151]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/DoubleMetaphone
+method: handleSC (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I
+all statements: [648, 650, 652, 654, 656, 659, 660, 662, 665, 666, 668, 670]
+coveraged statements: [648, 650, 652, 654, 656, 659, 660, 662, 665, 666, 668, 670]
+--------------------------------------------
+method: <clinit> ()V
+all statements: [48, 50, 52, 54]
+coveraged statements: [48, 50, 52, 54]
+--------------------------------------------
+method: handleT (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I
+all statements: [677, 678, 679, 680, 681, 682, 683, 684, 686, 687, 688, 690, 692, 694, 695, 697]
+coveraged statements: [677, 678, 679, 680, 681, 682, 683, 684, 686, 687, 688, 690, 692, 694, 695, 697]
+--------------------------------------------
+method: handleZ (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;IZ)I
+all statements: [760, 762, 763, 765, 766, 767, 769, 771, 773]
+coveraged statements: [760, 762, 763, 765, 766, 767, 769, 771, 773]
+--------------------------------------------
+method: handleP (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I
+all statements: [569, 570, 571, 573, 574, 576]
+coveraged statements: [569, 570, 571, 573, 574, 576]
+--------------------------------------------
+method: doubleMetaphone (Ljava/lang/String;Z)Ljava/lang/String;
+all statements: [87, 88, 89, 92, 93, 95, 97, 98, 105, 106, 108, 109, 110, 113, 114, 115, 117, 118, 120, 121, 123, 124, 125, 127, 128, 130, 131, 133, 134, 136, 137, 138, 140, 141, 143, 144, 145, 147, 148, 149, 152, 153, 154, 156, 157, 159, 160, 161, 163, 164, 166, 167, 169, 170, 172, 173, 174, 176, 177, 179, 180, 182, 183, 185, 186, 190]
+coveraged statements: [87, 88, 89, 92, 93, 95, 97, 98, 105, 106, 108, 109, 110, 113, 114, 115, 117, 118, 120, 121, 123, 124, 125, 127, 128, 130, 131, 133, 134, 136, 137, 138, 140, 141, 143, 144, 145, 147, 148, 149, 152, 153, 154, 156, 157, 159, 160, 161, 163, 164, 166, 167, 169, 170, 172, 173, 174, 176, 177, 179, 180, 182, 183, 185, 186, 190]
+--------------------------------------------
+method: isDoubleMetaphoneEqual (Ljava/lang/String;Ljava/lang/String;Z)Z
+all statements: [245]
+coveraged statements: [245]
+--------------------------------------------
+method: handleL (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I
+all statements: [551, 552, 553, 555, 557, 559, 560, 562]
+coveraged statements: [551, 552, 553, 555, 557, 559, 560, 562]
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [217]
+coveraged statements: [217]
+--------------------------------------------
+method: handleCH (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I
+all statements: [356, 357, 358, 359, 361, 362, 363, 365, 366, 368, 369, 370, 372, 375, 377]
+coveraged statements: [356, 359, 361, 362, 363, 365, 366, 368, 369, 370, 372, 375, 377]
+--------------------------------------------
+method: handleH (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I
+all statements: [500, 501, 502, 503, 506, 508]
+coveraged statements: [500, 501, 502, 503, 506, 508]
+--------------------------------------------
+method: cleanInput (Ljava/lang/String;)Ljava/lang/String;
+all statements: [889, 890, 892, 893, 894, 896]
+coveraged statements: [889, 890, 892, 893, 894, 896]
+--------------------------------------------
+method: handleC (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I
+all statements: [280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 291, 292, 293, 295, 296, 297, 298, 300, 301, 302, 303, 304, 306, 307, 309, 311, 313, 314, 316, 317, 318, 319, 321, 325]
+coveraged statements: [280, 281, 282, 283, 284, 285, 286, 287, 288, 289, 291, 292, 293, 295, 296, 297, 298, 300, 301, 302, 303, 304, 306, 307, 309, 311, 313, 314, 316, 317, 318, 319, 321, 325]
+--------------------------------------------
+method: handleGH (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I
+all statements: [467, 468, 469, 470, 471, 472, 474, 476, 477, 478, 479, 481, 483, 484, 486, 487, 488, 490, 492]
+coveraged statements: [467, 468, 469, 470, 471, 472, 474, 476, 477, 478, 479, 481, 483, 484, 486, 487, 488, 490, 492]
+--------------------------------------------
+method: isSlavoGermanic (Ljava/lang/String;)Z
+all statements: [858, 859]
+coveraged statements: [858, 859]
+--------------------------------------------
+method: conditionCH0 (Ljava/lang/String;I)Z
+all statements: [801, 802, 803, 804, 805, 806, 807, 809]
+coveraged statements: [801, 802, 803, 804, 805, 806, 809]
+--------------------------------------------
+method: handleJ (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;IZ)I
+all statements: [516, 518, 519, 520, 522, 524, 526, 527, 528, 529, 530, 531, 532, 533, 534, 535, 538, 539, 541, 544]
+coveraged statements: [516, 518, 519, 520, 522, 524, 526, 527, 528, 529, 530, 531, 533, 534, 535, 538, 541, 544]
+--------------------------------------------
+method: handleR (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;IZ)I
+all statements: [584, 585, 586, 587, 589, 591]
+coveraged statements: [584, 585, 586, 587, 589, 591]
+--------------------------------------------
+method: handleX (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I
+all statements: [740, 741, 742, 744, 745, 746, 748, 750, 752]
+coveraged statements: [740, 741, 742, 744, 745, 746, 748, 750, 752]
+--------------------------------------------
+method: <init> ()V
+all statements: [60, 66, 67]
+coveraged statements: [60, 66, 67]
+--------------------------------------------
+method: contains (Ljava/lang/String;II[Ljava/lang/String;)Z
+all statements: [917, 918, 919, 921, 922, 923, 924, 928]
+coveraged statements: [917, 918, 919, 921, 922, 923, 924, 928]
+--------------------------------------------
+method: charAt (Ljava/lang/String;I)C
+all statements: [905, 906, 908]
+coveraged statements: [905, 906, 908]
+--------------------------------------------
+method: isDoubleMetaphoneEqual (Ljava/lang/String;Ljava/lang/String;)Z
+all statements: [231]
+coveraged statements: [231]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [203, 204, 206]
+coveraged statements: [203, 204, 206]
+--------------------------------------------
+method: doubleMetaphone (Ljava/lang/String;)Ljava/lang/String;
+all statements: [76]
+coveraged statements: [76]
+--------------------------------------------
+method: isSilentStart (Ljava/lang/String;)Z
+all statements: [875, 876, 877, 878, 879, 882]
+coveraged statements: [875, 876, 877, 878, 879, 882]
+--------------------------------------------
+method: handleD (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I
+all statements: [385, 387, 388, 389, 392, 393, 395, 396, 397, 399, 400, 402]
+coveraged statements: [385, 387, 388, 389, 392, 393, 395, 396, 397, 399, 400, 402]
+--------------------------------------------
+method: conditionC0 (Ljava/lang/String;I)Z
+all statements: [782, 783, 784, 785, 786, 787, 788, 789, 791, 792, 793]
+coveraged statements: [782, 783, 784, 785, 786, 787, 788, 789, 791, 792, 793]
+--------------------------------------------
+method: getMaxCodeLen ()I
+all statements: [253]
+coveraged statements: [253]
+--------------------------------------------
+method: handleCC (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I
+all statements: [332, 333, 335, 336, 338, 341, 343, 345, 346, 349]
+coveraged statements: [332, 333, 335, 336, 338, 341, 343, 345, 346, 349]
+--------------------------------------------
+method: handleG (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;IZ)I
+all statements: [410, 411, 412, 413, 414, 415, 416, 417, 419, 421, 422, 423, 424, 425, 426, 427, 429, 430, 431, 432, 433, 434, 435, 437, 438, 439, 440, 442, 443, 444, 446, 447, 448, 450, 452, 453, 454, 455, 457, 458, 460]
+coveraged statements: [410, 411, 412, 413, 415, 416, 417, 419, 421, 422, 423, 424, 425, 426, 427, 429, 430, 431, 432, 433, 434, 435, 437, 438, 439, 440, 442, 443, 444, 446, 447, 448, 450, 452, 453, 454, 455, 457, 458, 460]
+--------------------------------------------
+method: setMaxCodeLen (I)V
+all statements: [261, 262]
+coveraged statements: [261, 262]
+--------------------------------------------
+method: conditionM0 (Ljava/lang/String;I)Z
+all statements: [844, 845, 847, 848]
+coveraged statements: [844, 845, 847, 848]
+--------------------------------------------
+method: conditionL0 (Ljava/lang/String;I)Z
+all statements: [828, 829, 830, 831, 832, 833, 834, 836]
+coveraged statements: [828, 829, 830, 831, 832, 833, 834, 836]
+--------------------------------------------
+method: handleS (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;IZ)I
+all statements: [599, 601, 602, 604, 605, 606, 607, 609, 611, 613, 614, 616, 617, 619, 621, 622, 623, 628, 629, 630, 631, 633, 635, 637, 639, 641]
+coveraged statements: [599, 601, 602, 604, 605, 606, 607, 609, 611, 613, 614, 616, 619, 621, 622, 623, 628, 629, 630, 631, 633, 635, 637, 639, 641]
+--------------------------------------------
+method: handleW (Ljava/lang/String;Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I
+all statements: [704, 706, 707, 709, 710, 711, 713, 716, 718, 719, 720, 721, 723, 724, 725, 727, 728, 730, 733]
+coveraged statements: [704, 706, 707, 709, 710, 711, 713, 716, 718, 719, 720, 721, 723, 724, 725, 727, 728, 730, 733]
+--------------------------------------------
+method: handleAEIOUY (Lorg/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult;I)I
+all statements: [270, 271, 273]
+coveraged statements: [270, 271, 273]
+--------------------------------------------
+method: conditionCH1 (Ljava/lang/String;I)Z
+all statements: [817, 818, 819, 820, 821]
+coveraged statements: [817, 818, 819, 820, 821]
+--------------------------------------------
+method: isVowel (C)Z
+all statements: [866]
+coveraged statements: [866]
+--------------------------------------------
+
+class: org/apache/commons/codec/net/Utils
+method: <init> ()V
+all statements: [30]
+coveraged statements: [30]
+--------------------------------------------
+method: digit16 (B)I
+all statements: [43, 44, 45, 47]
+coveraged statements: [43, 44, 45, 47]
+--------------------------------------------
+
+class: org/apache/commons/codec/DecoderException
+method: <init> (Ljava/lang/String;Ljava/lang/Throwable;)V
+all statements: [70, 71]
+coveraged statements: [70, 71]
+--------------------------------------------
+method: <init> ()V
+all statements: [42, 43]
+coveraged statements: [42, 43]
+--------------------------------------------
+method: <init> (Ljava/lang/String;)V
+all statements: [53, 54]
+coveraged statements: [53, 54]
+--------------------------------------------
+method: <init> (Ljava/lang/Throwable;)V
+all statements: [84, 85]
+coveraged statements: [84, 85]
+--------------------------------------------
+
+class: org/apache/commons/codec/digest/PureJavaCrc32C
+method: <clinit> ()V
+all statements: [118]
+coveraged statements: [118]
+--------------------------------------------
+method: <init> ()V
+all statements: [44, 45, 46]
+coveraged statements: [44, 45, 46]
+--------------------------------------------
+method: getValue ()J
+all statements: [50, 51]
+coveraged statements: [50, 51]
+--------------------------------------------
+method: reset ()V
+all statements: [56, 57]
+coveraged statements: [56, 57]
+--------------------------------------------
+method: update ([BII)V
+all statements: [61, 63, 64, 65, 66, 67, 68, 71, 72, 73, 74, 76, 79, 80, 81, 84, 85, 86, 87, 88, 89, 90, 91, 97, 98]
+coveraged statements: [61, 63, 64, 65, 66, 67, 68, 71, 72, 73, 74, 76, 79, 80, 81, 84, 97, 98]
+--------------------------------------------
+method: update (I)V
+all statements: [102, 103]
+coveraged statements: null
+--------------------------------------------
+
+class: org/apache/commons/codec/digest/Md5Crypt
+method: apr1Crypt (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [126]
+coveraged statements: [126]
+--------------------------------------------
+method: <init> ()V
+all statements: [48]
+coveraged statements: [48]
+--------------------------------------------
+method: md5Crypt ([BLjava/lang/String;)Ljava/lang/String;
+all statements: [161]
+coveraged statements: [161]
+--------------------------------------------
+method: apr1Crypt ([B)Ljava/lang/String;
+all statements: [72]
+coveraged statements: [72]
+--------------------------------------------
+method: apr1Crypt ([BLjava/lang/String;)Ljava/lang/String;
+all statements: [89, 90, 92]
+coveraged statements: [89, 90, 92]
+--------------------------------------------
+method: md5Crypt ([B)Ljava/lang/String;
+all statements: [141]
+coveraged statements: [141]
+--------------------------------------------
+method: md5Crypt ([BLjava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [180, 184, 185, 187, 188, 189, 190, 192, 194, 196, 201, 206, 211, 216, 217, 218, 219, 220, 221, 222, 223, 224, 230, 235, 236, 237, 238, 239, 241, 243, 249, 250, 256, 257, 258, 259, 261, 264, 265, 268, 269, 272, 273, 275, 277, 283, 284, 285, 286, 287, 288, 294, 295, 296, 297, 298, 300]
+coveraged statements: [180, 184, 185, 187, 188, 189, 190, 192, 194, 196, 201, 206, 211, 216, 217, 218, 219, 220, 221, 222, 223, 224, 230, 235, 236, 237, 238, 239, 241, 243, 249, 250, 256, 257, 258, 259, 261, 264, 265, 268, 269, 272, 273, 275, 277, 283, 284, 285, 286, 287, 288, 294, 295, 296, 297, 298, 300]
+--------------------------------------------
+method: apr1Crypt (Ljava/lang/String;)Ljava/lang/String;
+all statements: [105]
+coveraged statements: [105]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/DaitchMokotoffSoundex$Branch
+method: <init> ()V
+all statements: [82, 83, 84, 85, 86]
+coveraged statements: [82, 83, 84, 85, 86]
+--------------------------------------------
+method: hashCode ()I
+all statements: [124]
+coveraged statements: [124]
+--------------------------------------------
+method: createBranch ()Lorg/apache/commons/codec/language/DaitchMokotoffSoundex$Branch;
+all statements: [94, 95, 96, 97]
+coveraged statements: [94, 95, 96, 97]
+--------------------------------------------
+method: finish ()V
+all statements: [116, 117, 118, 120]
+coveraged statements: [116, 117, 118, 120]
+--------------------------------------------
+method: <init> (Lorg/apache/commons/codec/language/DaitchMokotoffSoundex$1;)V
+all statements: [77]
+coveraged statements: [77]
+--------------------------------------------
+method: processNextReplacement (Ljava/lang/String;Z)V
+all statements: [136, 138, 139, 141, 142, 144, 147, 148]
+coveraged statements: [136, 138, 139, 141, 142, 144, 147, 148]
+--------------------------------------------
+method: toString ()Ljava/lang/String;
+all statements: [152, 153, 155]
+coveraged statements: [152, 153, 155]
+--------------------------------------------
+method: equals (Ljava/lang/Object;)Z
+all statements: [102, 103, 105, 106, 109]
+coveraged statements: [102, 105, 109]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/Soundex
+method: <clinit> ()V
+all statements: [52, 59]
+coveraged statements: [52, 59]
+--------------------------------------------
+method: <init> ()V
+all statements: [66, 81, 82, 83]
+coveraged statements: [66, 81, 82, 83]
+--------------------------------------------
+method: soundex (Ljava/lang/String;)Ljava/lang/String;
+all statements: [229, 230, 232, 233, 234, 236, 238, 239, 241, 242, 243, 244, 245, 246, 247, 248, 251]
+coveraged statements: [229, 230, 232, 233, 234, 236, 238, 239, 241, 242, 243, 244, 245, 246, 247, 248, 251]
+--------------------------------------------
+method: getMaxLength ()I
+all statements: [178]
+coveraged statements: null
+--------------------------------------------
+method: <init> (Ljava/lang/String;)V
+all statements: [66, 108, 109, 110]
+coveraged statements: [66, 108, 109, 110]
+--------------------------------------------
+method: difference (Ljava/lang/String;Ljava/lang/String;)I
+all statements: [132]
+coveraged statements: [132]
+--------------------------------------------
+method: <init> ([C)V
+all statements: [66, 95, 96, 97, 98]
+coveraged statements: [66, 95, 96, 97, 98]
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [167]
+coveraged statements: [167]
+--------------------------------------------
+method: getSoundexMapping ()[C
+all statements: [187]
+coveraged statements: [187]
+--------------------------------------------
+method: setMaxLength (I)V
+all statements: [216, 217]
+coveraged statements: null
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [150, 151, 153]
+coveraged statements: [150, 151, 153]
+--------------------------------------------
+method: map (C)C
+all statements: [200, 201, 202, 204]
+coveraged statements: [200, 201, 202, 204]
+--------------------------------------------
+
+class: org/apache/commons/codec/binary/BaseNCodecInputStream
+method: mark (I)V
+all statements: [76]
+coveraged statements: null
+--------------------------------------------
+method: <init> (Ljava/io/InputStream;Lorg/apache/commons/codec/binary/BaseNCodec;Z)V
+all statements: [40, 42, 45, 46, 47, 48]
+coveraged statements: [40, 42, 45, 46, 47, 48]
+--------------------------------------------
+method: read ()I
+all statements: [97, 98, 99, 101, 102, 103, 105]
+coveraged statements: [97, 98, 101, 102, 103, 105]
+--------------------------------------------
+method: read ([BII)I
+all statements: [129, 130, 131, 132, 133, 134, 135, 136, 138, 155, 156, 157, 158, 159, 160, 162, 165, 167]
+coveraged statements: [129, 130, 131, 132, 133, 134, 135, 136, 138, 155, 156, 157, 158, 159, 160, 162, 165, 167]
+--------------------------------------------
+method: reset ()V
+all statements: [181]
+coveraged statements: null
+--------------------------------------------
+method: markSupported ()Z
+all statements: [85]
+coveraged statements: [85]
+--------------------------------------------
+method: skip (J)J
+all statements: [192, 193, 197, 198, 200, 201, 202, 203, 204, 206, 207, 209]
+coveraged statements: [192, 193, 197, 198, 200, 201, 202, 203, 204, 206, 207, 209]
+--------------------------------------------
+method: available ()I
+all statements: [64]
+coveraged statements: [64]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/AbstractCaverphone
+method: <init> ()V
+all statements: [41, 42]
+coveraged statements: [41, 42]
+--------------------------------------------
+method: isEncodeEqual (Ljava/lang/String;Ljava/lang/String;)Z
+all statements: [77]
+coveraged statements: [77]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [57, 58, 60]
+coveraged statements: [57, 58, 60]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/bm/Languages$LanguageSet
+method: <init> ()V
+all statements: [61]
+coveraged statements: null
+--------------------------------------------
+method: from (Ljava/util/Set;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;
+all statements: [64]
+coveraged statements: null
+--------------------------------------------
+
+class: org/apache/commons/codec/net/QuotedPrintableCodec
+method: <init> (Ljava/nio/charset/Charset;Z)V
+all statements: [148, 149, 150, 151]
+coveraged statements: [148, 149, 150, 151]
+--------------------------------------------
+method: <clinit> ()V
+all statements: [80, 100, 101, 103, 104, 106, 107, 108]
+coveraged statements: [80, 100, 101, 103, 104, 106, 107, 108]
+--------------------------------------------
+method: getDefaultCharset ()Ljava/lang/String;
+all statements: [556]
+coveraged statements: null
+--------------------------------------------
+method: getCharset ()Ljava/nio/charset/Charset;
+all statements: [547]
+coveraged statements: [547]
+--------------------------------------------
+method: encodeQuotedPrintable (ILjava/io/ByteArrayOutputStream;)I
+all statements: [183, 184, 185, 186, 187, 188]
+coveraged statements: [183, 184, 185, 186, 187, 188]
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [429]
+coveraged statements: [429]
+--------------------------------------------
+method: decode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [486]
+coveraged statements: [486]
+--------------------------------------------
+method: decodeQuotedPrintable ([B)[B
+all statements: [352, 353, 355, 356, 357, 358, 361, 362, 364, 365, 366, 367, 368, 369, 370, 372, 375]
+coveraged statements: [352, 353, 355, 356, 357, 358, 361, 362, 364, 365, 366, 367, 368, 369, 370, 372, 375]
+--------------------------------------------
+method: decode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [527, 528, 529, 530, 531, 532, 534, 535]
+coveraged statements: [527, 528, 529, 530, 531, 532, 534, 535]
+--------------------------------------------
+method: encodeByte (IZLjava/io/ByteArrayOutputStream;)I
+all statements: [222, 223, 225, 226]
+coveraged statements: [222, 223, 225, 226]
+--------------------------------------------
+method: <init> (Ljava/nio/charset/Charset;)V
+all statements: [136, 137]
+coveraged statements: null
+--------------------------------------------
+method: decode (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [467, 468, 470]
+coveraged statements: [467, 468, 470]
+--------------------------------------------
+method: encode ([B)[B
+all statements: [391]
+coveraged statements: [391]
+--------------------------------------------
+method: <init> ()V
+all statements: [114, 115]
+coveraged statements: [114, 115]
+--------------------------------------------
+method: decode ([B)[B
+all statements: [409]
+coveraged statements: [409]
+--------------------------------------------
+method: encode (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+all statements: [574, 575, 577]
+coveraged statements: [574, 575, 577]
+--------------------------------------------
+method: encodeQuotedPrintable (Ljava/util/BitSet;[BZ)[B
+all statements: [273, 274, 276, 277, 279, 281, 282, 285, 286, 287, 289, 292, 295, 296, 297, 298, 304, 305, 306, 311, 312, 313, 314, 316, 317, 319, 320, 322, 323, 324, 325, 326, 328, 329, 331, 335]
+coveraged statements: [273, 274, 276, 277, 279, 281, 282, 285, 286, 287, 289, 292, 295, 296, 297, 298, 304, 305, 306, 311, 312, 313, 314, 316, 317, 319, 320, 322, 323, 324, 325, 326, 328, 329, 331, 335]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [501, 502, 503, 504, 505, 506, 508, 509]
+coveraged statements: [501, 502, 503, 504, 505, 506, 508, 509]
+--------------------------------------------
+method: <init> (Z)V
+all statements: [125, 126]
+coveraged statements: [125, 126]
+--------------------------------------------
+method: <init> (Ljava/lang/String;)V
+all statements: [170, 171]
+coveraged statements: [170, 171]
+--------------------------------------------
+method: encode (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [596, 597, 599]
+coveraged statements: [596, 597, 599]
+--------------------------------------------
+method: isWhitespace (I)Z
+all statements: [237]
+coveraged statements: [237]
+--------------------------------------------
+method: getUnsignedOctet (I[B)I
+all statements: [202, 203, 204, 206]
+coveraged statements: [202, 203, 206]
+--------------------------------------------
+method: encodeQuotedPrintable (Ljava/util/BitSet;[B)[B
+all statements: [253]
+coveraged statements: [253]
+--------------------------------------------
+method: decode (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+all statements: [446, 447, 449]
+coveraged statements: [446, 447, 449]
+--------------------------------------------
+
+class: org/apache/commons/codec/digest/B64
+method: <init> ()V
+all statements: [33]
+coveraged statements: [33]
+--------------------------------------------
+method: getRandomSalt (I)Ljava/lang/String;
+all statements: [73, 74, 75, 77]
+coveraged statements: [73, 74, 75, 77]
+--------------------------------------------
+method: b64from24bit (BBBILjava/lang/StringBuilder;)V
+all statements: [57, 59, 60, 61, 62, 64]
+coveraged statements: [57, 59, 60, 61, 62, 64]
+--------------------------------------------
+
+class: org/apache/commons/codec/BinaryDecoder
+
+class: org/apache/commons/codec/language/Caverphone2
+method: <init> ()V
+all statements: [33]
+coveraged statements: [33]
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [46, 47, 48, 52, 55, 58, 61, 62, 63, 64, 65, 67, 70, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 120, 121, 122, 125, 128]
+coveraged statements: [46, 47, 48, 52, 55, 58, 61, 62, 63, 64, 65, 67, 70, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 120, 121, 122, 125, 128]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/DoubleMetaphone$DoubleMetaphoneResult
+method: getPrimary ()Ljava/lang/String;
+all statements: [997]
+coveraged statements: [997]
+--------------------------------------------
+method: append (CC)V
+all statements: [952, 953, 954]
+coveraged statements: [952, 953, 954]
+--------------------------------------------
+method: getAlternate ()Ljava/lang/String;
+all statements: [1001]
+coveraged statements: [1001]
+--------------------------------------------
+method: append (Ljava/lang/String;Ljava/lang/String;)V
+all statements: [974, 975, 976]
+coveraged statements: [974, 975, 976]
+--------------------------------------------
+method: append (C)V
+all statements: [947, 948, 949]
+coveraged statements: [947, 948, 949]
+--------------------------------------------
+method: isComplete ()Z
+all statements: [1005, 1006]
+coveraged statements: [1005, 1006]
+--------------------------------------------
+method: appendAlternate (C)V
+all statements: [963, 964, 966]
+coveraged statements: [963, 964, 966]
+--------------------------------------------
+method: appendPrimary (C)V
+all statements: [957, 958, 960]
+coveraged statements: [957, 958, 960]
+--------------------------------------------
+method: <init> (Lorg/apache/commons/codec/language/DoubleMetaphone;I)V
+all statements: [938, 939, 942, 943, 944]
+coveraged statements: [938, 939, 942, 943, 944]
+--------------------------------------------
+method: appendPrimary (Ljava/lang/String;)V
+all statements: [979, 980, 981, 983, 985]
+coveraged statements: [979, 980, 981, 983, 985]
+--------------------------------------------
+method: append (Ljava/lang/String;)V
+all statements: [969, 970, 971]
+coveraged statements: [969, 970, 971]
+--------------------------------------------
+method: appendAlternate (Ljava/lang/String;)V
+all statements: [988, 989, 990, 992, 994]
+coveraged statements: [988, 989, 990, 992, 994]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/ColognePhonetic$CologneInputBuffer
+method: removeNext ()C
+all statements: [274, 275, 276]
+coveraged statements: [274, 275, 276]
+--------------------------------------------
+method: getNextPos ()I
+all statements: [270]
+coveraged statements: [270]
+--------------------------------------------
+method: addLeft (C)V
+all statements: [254, 255, 256]
+coveraged statements: [254, 255, 256]
+--------------------------------------------
+method: copyData (II)[C
+all statements: [260, 261, 262]
+coveraged statements: null
+--------------------------------------------
+method: getNextChar ()C
+all statements: [266]
+coveraged statements: [266]
+--------------------------------------------
+method: <init> (Lorg/apache/commons/codec/language/ColognePhonetic;[C)V
+all statements: [249, 250, 251]
+coveraged statements: [249, 250, 251]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/bm/Rule$Phoneme$1
+method: <init> ()V
+all statements: [85]
+coveraged statements: [85]
+--------------------------------------------
+method: compare (Ljava/lang/Object;Ljava/lang/Object;)I
+all statements: [85]
+coveraged statements: [85]
+--------------------------------------------
+method: compare (Lorg/apache/commons/codec/language/bm/Rule$Phoneme;Lorg/apache/commons/codec/language/bm/Rule$Phoneme;)I
+all statements: [88, 89, 90, 92, 93, 94, 98, 99, 102]
+coveraged statements: [88, 89, 92, 93, 94, 98, 99, 102]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/DaitchMokotoffSoundex
+method: <clinit> ()V
+all statements: [223, 226, 229, 230, 231, 234, 236, 238, 239, 242, 243, 244, 250, 251]
+coveraged statements: [223, 226, 229, 230, 234, 236, 238, 239, 242, 243, 244, 250, 251]
+--------------------------------------------
+method: <init> ()V
+all statements: [351, 352]
+coveraged statements: [351, 352]
+--------------------------------------------
+method: soundex (Ljava/lang/String;)Ljava/lang/String;
+all statements: [464, 465, 466, 467, 468, 469, 470, 473]
+coveraged statements: [464, 465, 466, 467, 468, 469, 470, 473]
+--------------------------------------------
+method: parseRules (Ljava/util/Scanner;Ljava/lang/String;Ljava/util/Map;Ljava/util/Map;)V
+all statements: [255, 256, 258, 259, 260, 261, 263, 264, 265, 270, 271, 274, 275, 276, 280, 282, 283, 286, 288, 289, 290, 293, 294, 296, 297, 301, 302, 304, 305, 306, 310, 311, 312, 313, 315, 316, 317, 318, 319, 320, 322, 323, 324, 326, 329, 330]
+coveraged statements: [255, 256, 258, 259, 260, 261, 263, 264, 265, 270, 271, 274, 275, 276, 280, 282, 283, 286, 288, 289, 293, 294, 296, 301, 302, 304, 305, 310, 311, 312, 313, 315, 316, 317, 318, 319, 320, 322, 326, 329, 330]
+--------------------------------------------
+method: cleanup (Ljava/lang/String;)Ljava/lang/String;
+all statements: [379, 380, 381, 382, 385, 386, 387, 389, 391]
+coveraged statements: [379, 380, 381, 382, 385, 386, 387, 389, 391]
+--------------------------------------------
+method: <init> (Z)V
+all statements: [364, 365, 366]
+coveraged statements: [364, 365, 366]
+--------------------------------------------
+method: stripQuotes (Ljava/lang/String;)Ljava/lang/String;
+all statements: [333, 334, 337, 338, 341]
+coveraged statements: [333, 334, 337, 338, 341]
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [434, 435, 437]
+coveraged statements: [434, 435, 437]
+--------------------------------------------
+method: soundex (Ljava/lang/String;Z)[Ljava/lang/String;
+all statements: [487, 488, 491, 493, 494, 496, 497, 498, 501, 502, 505, 506, 507, 508, 513, 515, 516, 517, 518, 520, 521, 523, 524, 526, 529, 531, 533, 534, 539, 541, 542, 543, 545, 546, 548, 550, 553, 554, 555, 556, 557, 558, 560]
+coveraged statements: [487, 491, 493, 494, 496, 497, 498, 501, 505, 506, 507, 508, 513, 515, 516, 517, 518, 520, 521, 523, 524, 526, 529, 531, 533, 534, 539, 541, 542, 543, 545, 546, 548, 550, 553, 554, 555, 556, 557, 558, 560]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [414, 415, 418]
+coveraged statements: [414, 415, 418]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/bm/Languages
+method: <clinit> ()V
+all statements: [157, 160, 161, 211, 251]
+coveraged statements: [157, 160, 161, 211, 251]
+--------------------------------------------
+method: langResourceName (Lorg/apache/commons/codec/language/bm/NameType;)Ljava/lang/String;
+all statements: [203]
+coveraged statements: [203]
+--------------------------------------------
+method: getLanguages ()Ljava/util/Set;
+all statements: [293]
+coveraged statements: null
+--------------------------------------------
+method: <init> (Ljava/util/Set;)V
+all statements: [288, 289, 290]
+coveraged statements: [288, 289, 290]
+--------------------------------------------
+method: getInstance (Ljava/lang/String;)Lorg/apache/commons/codec/language/bm/Languages;
+all statements: [171, 172, 174, 175, 178, 180, 181, 182, 183, 184, 185, 188, 189, 190, 191, 194, 196, 197, 199]
+coveraged statements: [171, 172, 174, 178, 180, 181, 182, 183, 184, 185, 188, 189, 190, 191, 194, 196, 197, 199]
+--------------------------------------------
+method: getInstance (Lorg/apache/commons/codec/language/bm/NameType;)Lorg/apache/commons/codec/language/bm/Languages;
+all statements: [166]
+coveraged statements: null
+--------------------------------------------
+
+class: org/apache/commons/codec/language/Caverphone1
+method: <init> ()V
+all statements: [33]
+coveraged statements: [33]
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [46, 47, 48, 52, 55, 59, 60, 61, 62, 63, 66, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 117, 118, 121, 124]
+coveraged statements: [46, 47, 48, 52, 55, 59, 60, 61, 62, 63, 66, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 117, 118, 121, 124]
+--------------------------------------------
+
+class: org/apache/commons/codec/digest/UnixCrypt
+method: hPermOp (III)I
+all statements: [393, 394, 395]
+coveraged statements: [393, 394, 395]
+--------------------------------------------
+method: <clinit> ()V
+all statements: [42, 48, 52, 53, 55, 58, 117]
+coveraged statements: [42, 48, 52, 53, 55, 58, 117]
+--------------------------------------------
+method: <init> ()V
+all statements: [40]
+coveraged statements: [40]
+--------------------------------------------
+method: crypt ([B)Ljava/lang/String;
+all statements: [182]
+coveraged statements: [182]
+--------------------------------------------
+method: desSetKey ([B)[I
+all statements: [339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 365, 366, 368, 369, 370, 373, 375, 376, 377, 378, 381]
+coveraged statements: [339, 340, 341, 342, 343, 344, 345, 346, 347, 348, 349, 350, 351, 352, 353, 354, 355, 356, 357, 358, 359, 360, 361, 362, 363, 365, 366, 368, 369, 370, 373, 375, 376, 377, 378, 381]
+--------------------------------------------
+method: body ([III)[I
+all statements: [282, 283, 284, 285, 286, 287, 288, 290, 291, 292, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317]
+coveraged statements: [282, 283, 284, 285, 286, 287, 288, 290, 291, 292, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317]
+--------------------------------------------
+method: intToFourBytes (I[BI)V
+all statements: [399, 400, 401, 402, 403]
+coveraged statements: [399, 400, 401, 402, 403]
+--------------------------------------------
+method: permOp (IIII[I)V
+all statements: [406, 407, 408, 409, 410, 411]
+coveraged statements: [406, 407, 408, 409, 410, 411]
+--------------------------------------------
+method: crypt ([BLjava/lang/String;)Ljava/lang/String;
+all statements: [199, 200, 201, 202, 203, 204, 205, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 220, 221, 222, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 242, 243, 244, 245, 247, 250]
+coveraged statements: [199, 200, 201, 202, 203, 204, 205, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 220, 221, 222, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 242, 243, 244, 245, 247, 250]
+--------------------------------------------
+method: dEncrypt (IIIII[I)I
+all statements: [326, 327, 328, 329, 330, 331, 332, 335]
+coveraged statements: [326, 327, 328, 329, 330, 331, 332, 335]
+--------------------------------------------
+method: crypt (Ljava/lang/String;)Ljava/lang/String;
+all statements: [263]
+coveraged statements: [263]
+--------------------------------------------
+method: byteToUnsigned (B)I
+all statements: [321, 322]
+coveraged statements: [321, 322]
+--------------------------------------------
+method: fourBytesToInt ([BI)I
+all statements: [385, 386, 387, 388, 389]
+coveraged statements: [385, 386, 387, 388, 389]
+--------------------------------------------
+method: crypt (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [278]
+coveraged statements: [278]
+--------------------------------------------
+
+class: org/apache/commons/codec/digest/MessageDigestAlgorithms
+method: <init> ()V
+all statements: [144, 146]
+coveraged statements: null
+--------------------------------------------
+method: values ()[Ljava/lang/String;
+all statements: [139]
+coveraged statements: [139]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/DaitchMokotoffSoundex$Rule
+method: getReplacements (Ljava/lang/String;Z)[Ljava/lang/String;
+all statements: [181, 182, 185, 186, 187, 188, 191]
+coveraged statements: [181, 182, 185, 186, 187, 188, 191]
+--------------------------------------------
+method: getPatternLength ()I
+all statements: [177]
+coveraged statements: [177]
+--------------------------------------------
+method: matches (Ljava/lang/String;)Z
+all statements: [199]
+coveraged statements: [199]
+--------------------------------------------
+method: <init> (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+all statements: [169, 170, 171, 172, 173, 174]
+coveraged statements: [169, 170, 171, 172, 173, 174]
+--------------------------------------------
+method: access$000 (Lorg/apache/commons/codec/language/DaitchMokotoffSoundex$Rule;)Ljava/lang/String;
+all statements: [162]
+coveraged statements: [162]
+--------------------------------------------
+method: toString ()Ljava/lang/String;
+all statements: [204, 205]
+coveraged statements: null
+--------------------------------------------
+method: isVowel (C)Z
+all statements: [195]
+coveraged statements: [195]
+--------------------------------------------
+
+class: org/apache/commons/codec/EncoderException
+method: <init> (Ljava/lang/String;Ljava/lang/Throwable;)V
+all statements: [73, 74]
+coveraged statements: [73, 74]
+--------------------------------------------
+method: <init> ()V
+all statements: [43, 44]
+coveraged statements: [43, 44]
+--------------------------------------------
+method: <init> (Ljava/lang/String;)V
+all statements: [54, 55]
+coveraged statements: [54, 55]
+--------------------------------------------
+method: <init> (Ljava/lang/Throwable;)V
+all statements: [87, 88]
+coveraged statements: [87, 88]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/bm/Lang
+method: loadFromResource (Ljava/lang/String;Lorg/apache/commons/codec/language/bm/Languages;)Lorg/apache/commons/codec/language/bm/Lang;
+all statements: [130, 131, 133, 134, 137, 139, 140, 141, 142, 143, 145, 146, 149, 150, 153, 154, 155, 159, 161, 162, 166, 168, 169, 173, 174, 175, 177, 180, 182, 183, 184]
+coveraged statements: null
+--------------------------------------------
+method: <init> (Ljava/util/List;Lorg/apache/commons/codec/language/bm/Languages;)V
+all statements: [190, 191, 192, 193]
+coveraged statements: null
+--------------------------------------------
+method: <clinit> ()V
+all statements: [96, 101, 102, 104]
+coveraged statements: [96, 101, 102]
+--------------------------------------------
+method: guessLanguages (Ljava/lang/String;)Lorg/apache/commons/codec/language/bm/Languages$LanguageSet;
+all statements: [215, 217, 218, 219, 220, 221, 223, 226, 228, 229]
+coveraged statements: null
+--------------------------------------------
+method: guessLanguage (Ljava/lang/String;)Ljava/lang/String;
+all statements: [203, 204]
+coveraged statements: null
+--------------------------------------------
+method: instance (Lorg/apache/commons/codec/language/bm/NameType;)Lorg/apache/commons/codec/language/bm/Lang;
+all statements: [114]
+coveraged statements: null
+--------------------------------------------
+
+class: org/apache/commons/codec/digest/HmacAlgorithms
+method: <clinit> ()V
+all statements: [37, 45, 53, 62, 70, 78, 86]
+coveraged statements: [37, 45, 53, 62, 70, 78, 86]
+--------------------------------------------
+method: getName ()Ljava/lang/String;
+all statements: [101]
+coveraged statements: [101]
+--------------------------------------------
+method: <init> (Ljava/lang/String;ILjava/lang/String;)V
+all statements: [90, 91, 92]
+coveraged statements: [90, 91, 92]
+--------------------------------------------
+method: valueOf (Ljava/lang/String;)Lorg/apache/commons/codec/digest/HmacAlgorithms;
+all statements: [37]
+coveraged statements: null
+--------------------------------------------
+method: toString ()Ljava/lang/String;
+all statements: [117]
+coveraged statements: [117]
+--------------------------------------------
+method: values ()[Lorg/apache/commons/codec/digest/HmacAlgorithms;
+all statements: [37]
+coveraged statements: null
+--------------------------------------------
+
+class: org/apache/commons/codec/binary/Base64
+method: encodeBase64URLSafeString ([B)Ljava/lang/String;
+all statements: [596]
+coveraged statements: [596]
+--------------------------------------------
+method: <clinit> ()V
+all statements: [74, 83, 96, 115]
+coveraged statements: [74, 83, 96, 115]
+--------------------------------------------
+method: <init> (I[BZ)V
+all statements: [145, 275, 280, 281, 282, 283, 285, 286, 287, 288, 290, 291, 294, 295, 297, 298, 299]
+coveraged statements: [145, 275, 280, 281, 282, 283, 285, 286, 287, 288, 290, 291, 294, 295, 297, 298, 299]
+--------------------------------------------
+method: isBase64 (B)Z
+all statements: [511]
+coveraged statements: [511]
+--------------------------------------------
+method: decodeBase64 ([B)[B
+all statements: [707]
+coveraged statements: [707]
+--------------------------------------------
+method: toIntegerBytes (Ljava/math/BigInteger;)[B
+all statements: [750, 752, 753, 755, 756, 759, 760, 763, 764, 765, 767, 768, 769, 770]
+coveraged statements: [750, 752, 753, 755, 756, 759, 760, 763, 764, 765, 767, 768, 769, 770]
+--------------------------------------------
+method: <init> (I)V
+all statements: [217, 218]
+coveraged statements: [217, 218]
+--------------------------------------------
+method: <init> (I[B)V
+all statements: [244, 245]
+coveraged statements: [244, 245]
+--------------------------------------------
+method: isInAlphabet (B)Z
+all statements: [782]
+coveraged statements: [782]
+--------------------------------------------
+method: isArrayByteBase64 ([B)Z
+all statements: [499]
+coveraged statements: null
+--------------------------------------------
+method: isUrlSafe ()Z
+all statements: [308]
+coveraged statements: [308]
+--------------------------------------------
+method: encodeBase64 ([B)[B
+all statements: [555]
+coveraged statements: [555]
+--------------------------------------------
+method: encodeBase64Chunked ([B)[B
+all statements: [607]
+coveraged statements: [607]
+--------------------------------------------
+method: encode ([BIILorg/apache/commons/codec/binary/BaseNCodec$Context;)V
+all statements: [334, 335, 339, 340, 341, 342, 344, 345, 346, 348, 351, 353, 355, 356, 357, 362, 363, 364, 366, 367, 371, 373, 375, 376, 377, 379, 380, 381, 382, 383, 384, 385, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 402]
+coveraged statements: [334, 335, 339, 340, 341, 342, 344, 345, 346, 348, 351, 353, 355, 356, 357, 362, 363, 364, 366, 367, 373, 375, 376, 377, 379, 380, 381, 382, 383, 384, 385, 387, 388, 389, 390, 391, 392, 393, 394, 395, 396, 397, 402]
+--------------------------------------------
+method: encodeBase64 ([BZZI)[B
+all statements: [663, 664, 669, 670, 671, 672, 678]
+coveraged statements: [663, 664, 669, 670, 671, 672, 678]
+--------------------------------------------
+method: encodeInteger (Ljava/math/BigInteger;)[B
+all statements: [736, 737, 739]
+coveraged statements: [736, 737, 739]
+--------------------------------------------
+method: <init> ()V
+all statements: [175, 176]
+coveraged statements: [175, 176]
+--------------------------------------------
+method: decodeBase64 (Ljava/lang/String;)[B
+all statements: [693]
+coveraged statements: [693]
+--------------------------------------------
+method: encodeBase64URLSafe ([B)[B
+all statements: [583]
+coveraged statements: [583]
+--------------------------------------------
+method: decodeInteger ([B)Ljava/math/BigInteger;
+all statements: [722]
+coveraged statements: [722]
+--------------------------------------------
+method: encodeBase64String ([B)Ljava/lang/String;
+all statements: [570]
+coveraged statements: [570]
+--------------------------------------------
+method: encodeBase64 ([BZ)[B
+all statements: [622]
+coveraged statements: [622]
+--------------------------------------------
+method: encodeBase64 ([BZZ)[B
+all statements: [641]
+coveraged statements: [641]
+--------------------------------------------
+method: <init> (Z)V
+all statements: [194, 195]
+coveraged statements: [194, 195]
+--------------------------------------------
+method: isBase64 (Ljava/lang/String;)Z
+all statements: [525]
+coveraged statements: [525]
+--------------------------------------------
+method: isBase64 ([B)Z
+all statements: [539, 540, 541, 544]
+coveraged statements: [539, 540, 541, 544]
+--------------------------------------------
+method: decode ([BIILorg/apache/commons/codec/binary/BaseNCodec$Context;)V
+all statements: [431, 432, 434, 435, 437, 438, 439, 440, 442, 443, 445, 446, 447, 448, 449, 450, 451, 452, 453, 462, 463, 467, 471, 473, 474, 475, 477, 478, 479, 480, 482, 485]
+coveraged statements: [431, 432, 434, 435, 437, 438, 439, 440, 442, 443, 445, 446, 447, 448, 449, 450, 451, 452, 453, 462, 463, 467, 473, 474, 475, 477, 478, 479, 480, 485]
+--------------------------------------------
+
+class: org/apache/commons/codec/binary/Base32InputStream
+method: <init> (Ljava/io/InputStream;ZI[B)V
+all statements: [82, 83]
+coveraged statements: [82, 83]
+--------------------------------------------
+method: <init> (Ljava/io/InputStream;)V
+all statements: [48, 49]
+coveraged statements: [48, 49]
+--------------------------------------------
+method: <init> (Ljava/io/InputStream;Z)V
+all statements: [61, 62]
+coveraged statements: [61, 62]
+--------------------------------------------
+
+class: org/apache/commons/codec/net/URLCodec
+method: <clinit> ()V
+all statements: [70, 75, 76, 78, 79, 82, 83, 86, 87, 88, 89, 91, 92]
+coveraged statements: [70, 75, 76, 78, 79, 82, 83, 86, 87, 88, 89, 91, 92]
+--------------------------------------------
+method: <init> ()V
+all statements: [99, 100]
+coveraged statements: [99, 100]
+--------------------------------------------
+method: decode ([B)[B
+all statements: [210]
+coveraged statements: [210]
+--------------------------------------------
+method: getEncoding ()Ljava/lang/String;
+all statements: [365]
+coveraged statements: null
+--------------------------------------------
+method: getDefaultCharset ()Ljava/lang/String;
+all statements: [353]
+coveraged statements: [353]
+--------------------------------------------
+method: encodeUrl (Ljava/util/BitSet;[B)[B
+all statements: [122, 123, 125, 126, 129, 130, 131, 132, 133, 135, 136, 137, 139, 141, 142, 143, 144, 145, 148]
+coveraged statements: [122, 123, 125, 126, 129, 130, 131, 132, 133, 135, 136, 137, 139, 141, 142, 143, 144, 145, 148]
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [244, 245, 248, 249, 250]
+coveraged statements: [244, 245, 248, 249, 250]
+--------------------------------------------
+method: decode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [289, 290, 293, 294, 295]
+coveraged statements: [289, 290, 293, 294, 295]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [310, 311, 312, 313, 314, 315, 317]
+coveraged statements: [310, 311, 312, 313, 314, 315, 317]
+--------------------------------------------
+method: decode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [335, 336, 337, 338, 339, 340, 342]
+coveraged statements: [335, 336, 337, 338, 339, 340, 342]
+--------------------------------------------
+method: decodeUrl ([B)[B
+all statements: [162, 163, 165, 166, 167, 168, 169, 170, 172, 173, 174, 175, 176, 177, 179, 182]
+coveraged statements: [162, 163, 165, 166, 167, 168, 169, 170, 172, 173, 174, 175, 176, 177, 179, 182]
+--------------------------------------------
+method: <init> (Ljava/lang/String;)V
+all statements: [108, 109, 110]
+coveraged statements: [108, 109, 110]
+--------------------------------------------
+method: encode (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [225, 226, 228]
+coveraged statements: [225, 226, 228]
+--------------------------------------------
+method: decode (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [270, 271, 273]
+coveraged statements: [270, 271, 273]
+--------------------------------------------
+method: encode ([B)[B
+all statements: [194]
+coveraged statements: [194]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/Nysiis
+method: <clinit> ()V
+all statements: [72, 73, 74, 75, 76, 77, 78, 79, 80, 82, 83, 84, 85, 86, 87, 88]
+coveraged statements: [72, 73, 74, 75, 76, 77, 78, 79, 80, 82, 83, 84, 85, 86, 87, 88]
+--------------------------------------------
+method: <init> ()V
+all statements: [177, 178]
+coveraged statements: [177, 178]
+--------------------------------------------
+method: transcodeRemaining (CCCC)[C
+all statements: [120, 121, 125, 126, 130, 131, 132, 133, 134, 135, 139, 140, 141, 143, 147, 148, 152, 153, 157, 158, 162, 163, 166]
+coveraged statements: [120, 121, 125, 126, 130, 131, 132, 133, 134, 135, 139, 140, 141, 143, 147, 148, 152, 153, 157, 158, 162, 163, 166]
+--------------------------------------------
+method: <init> (Z)V
+all statements: [191, 192, 193]
+coveraged statements: [191, 192, 193]
+--------------------------------------------
+method: nysiis (Ljava/lang/String;)Ljava/lang/String;
+all statements: [247, 248, 252, 254, 255, 260, 261, 262, 263, 264, 268, 269, 272, 273, 276, 277, 279, 280, 281, 282, 283, 286, 287, 291, 292, 295, 296, 297, 300, 301, 303, 304, 309, 310, 314, 315]
+coveraged statements: [247, 248, 252, 254, 255, 260, 261, 262, 263, 264, 268, 269, 272, 273, 276, 277, 279, 280, 281, 282, 283, 286, 287, 291, 292, 295, 296, 297, 300, 301, 303, 304, 309, 310, 314, 315]
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [227]
+coveraged statements: [227]
+--------------------------------------------
+method: isVowel (C)Z
+all statements: [101]
+coveraged statements: [101]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [210, 211, 213]
+coveraged statements: [210, 211, 213]
+--------------------------------------------
+method: isStrict ()Z
+all statements: [236]
+coveraged statements: [236]
+--------------------------------------------
+
+class: org/apache/commons/codec/digest/DigestUtils
+method: sha384 (Ljava/io/InputStream;)[B
+all statements: [655]
+coveraged statements: [655]
+--------------------------------------------
+method: sha512 ([B)[B
+all statements: [732]
+coveraged statements: [732]
+--------------------------------------------
+method: sha256 (Ljava/lang/String;)[B
+all statements: [576]
+coveraged statements: [576]
+--------------------------------------------
+method: sha256Hex (Ljava/lang/String;)Ljava/lang/String;
+all statements: [623]
+coveraged statements: [623]
+--------------------------------------------
+method: sha512Hex (Ljava/io/InputStream;)Ljava/lang/String;
+all statements: [796]
+coveraged statements: [796]
+--------------------------------------------
+method: digestAsHex ([B)Ljava/lang/String;
+all statements: [1086]
+coveraged statements: null
+--------------------------------------------
+method: sha1Hex ([B)Ljava/lang/String;
+all statements: [503]
+coveraged statements: [503]
+--------------------------------------------
+method: updateDigest (Ljava/security/MessageDigest;Ljava/io/File;)Ljava/security/MessageDigest;
+all statements: [899, 901, 903]
+coveraged statements: [899, 901, 903]
+--------------------------------------------
+method: isAvailable (Ljava/lang/String;)Z
+all statements: [959]
+coveraged statements: [959]
+--------------------------------------------
+method: digest (Ljava/io/File;)[B
+all statements: [1060]
+coveraged statements: null
+--------------------------------------------
+method: updateDigest (Ljava/security/MessageDigest;Ljava/nio/ByteBuffer;)Ljava/security/MessageDigest;
+all statements: [882, 883]
+coveraged statements: [882, 883]
+--------------------------------------------
+method: sha1Hex (Ljava/lang/String;)Ljava/lang/String;
+all statements: [529]
+coveraged statements: [529]
+--------------------------------------------
+method: sha256Hex ([B)Ljava/lang/String;
+all statements: [591]
+coveraged statements: [591]
+--------------------------------------------
+method: getShaDigest ()Ljava/security/MessageDigest;
+all statements: [264]
+coveraged statements: [264]
+--------------------------------------------
+method: sha1 ([B)[B
+all statements: [466]
+coveraged statements: [466]
+--------------------------------------------
+method: md2Hex ([B)Ljava/lang/String;
+all statements: [314]
+coveraged statements: [314]
+--------------------------------------------
+method: updateDigest (Ljava/security/MessageDigest;Ljava/io/InputStream;)Ljava/security/MessageDigest;
+all statements: [920, 921, 923, 924, 925, 928]
+coveraged statements: [920, 921, 923, 924, 925, 928]
+--------------------------------------------
+method: md2Hex (Ljava/lang/String;)Ljava/lang/String;
+all statements: [340]
+coveraged statements: [340]
+--------------------------------------------
+method: md2 (Ljava/io/InputStream;)[B
+all statements: [290]
+coveraged statements: [290]
+--------------------------------------------
+method: <init> ()V
+all statements: [970, 971, 972]
+coveraged statements: null
+--------------------------------------------
+method: getMessageDigest ()Ljava/security/MessageDigest;
+all statements: [1009]
+coveraged statements: null
+--------------------------------------------
+method: getMd5Digest ()Ljava/security/MessageDigest;
+all statements: [189]
+coveraged statements: [189]
+--------------------------------------------
+method: sha ([B)[B
+all statements: [425]
+coveraged statements: null
+--------------------------------------------
+method: sha384 (Ljava/lang/String;)[B
+all statements: [670]
+coveraged statements: [670]
+--------------------------------------------
+method: sha256 ([B)[B
+all statements: [544]
+coveraged statements: [544]
+--------------------------------------------
+method: updateDigest (Ljava/security/MessageDigest;[B)Ljava/security/MessageDigest;
+all statements: [867, 868]
+coveraged statements: [867, 868]
+--------------------------------------------
+method: md5 ([B)[B
+all statements: [351]
+coveraged statements: [351]
+--------------------------------------------
+method: getSha1Digest ()Ljava/security/MessageDigest;
+all statements: [203]
+coveraged statements: [203]
+--------------------------------------------
+method: getDigest (Ljava/lang/String;)Ljava/security/MessageDigest;
+all statements: [134, 135, 136]
+coveraged statements: [134, 135, 136]
+--------------------------------------------
+method: md2Hex (Ljava/io/InputStream;)Ljava/lang/String;
+all statements: [328]
+coveraged statements: [328]
+--------------------------------------------
+method: sha1Hex (Ljava/io/InputStream;)Ljava/lang/String;
+all statements: [517]
+coveraged statements: [517]
+--------------------------------------------
+method: sha512Hex ([B)Ljava/lang/String;
+all statements: [779]
+coveraged statements: [779]
+--------------------------------------------
+method: shaHex (Ljava/io/InputStream;)Ljava/lang/String;
+all statements: [840]
+coveraged statements: [840]
+--------------------------------------------
+method: digest (Ljava/security/MessageDigest;Ljava/nio/ByteBuffer;)[B
+all statements: [83, 84]
+coveraged statements: [83, 84]
+--------------------------------------------
+method: md5Hex ([B)Ljava/lang/String;
+all statements: [387]
+coveraged statements: [387]
+--------------------------------------------
+method: digest (Ljava/io/InputStream;)[B
+all statements: [1074]
+coveraged statements: null
+--------------------------------------------
+method: getSha384Digest ()Ljava/security/MessageDigest;
+all statements: [235]
+coveraged statements: [235]
+--------------------------------------------
+method: sha384Hex ([B)Ljava/lang/String;
+all statements: [685]
+coveraged statements: [685]
+--------------------------------------------
+method: getDigest (Ljava/lang/String;Ljava/security/MessageDigest;)Ljava/security/MessageDigest;
+all statements: [159, 160, 161]
+coveraged statements: [159, 160, 161]
+--------------------------------------------
+method: md5Hex (Ljava/lang/String;)Ljava/lang/String;
+all statements: [412]
+coveraged statements: [412]
+--------------------------------------------
+method: digest ([B)[B
+all statements: [1021]
+coveraged statements: null
+--------------------------------------------
+method: sha384 ([B)[B
+all statements: [638]
+coveraged statements: [638]
+--------------------------------------------
+method: sha512 (Ljava/io/InputStream;)[B
+all statements: [749]
+coveraged statements: [749]
+--------------------------------------------
+method: getSha512Digest ()Ljava/security/MessageDigest;
+all statements: [251]
+coveraged statements: [251]
+--------------------------------------------
+method: sha (Ljava/lang/String;)[B
+all statements: [454]
+coveraged statements: null
+--------------------------------------------
+method: digest (Ljava/security/MessageDigest;Ljava/io/File;)[B
+all statements: [100]
+coveraged statements: [100]
+--------------------------------------------
+method: md2 ([B)[B
+all statements: [276]
+coveraged statements: [276]
+--------------------------------------------
+method: sha1 (Ljava/io/InputStream;)[B
+all statements: [480]
+coveraged statements: [480]
+--------------------------------------------
+method: shaHex ([B)Ljava/lang/String;
+all statements: [824]
+coveraged statements: [824]
+--------------------------------------------
+method: digestAsHex (Ljava/io/File;)Ljava/lang/String;
+all statements: [1125]
+coveraged statements: null
+--------------------------------------------
+method: md5 (Ljava/lang/String;)[B
+all statements: [376]
+coveraged statements: [376]
+--------------------------------------------
+method: digestAsHex (Ljava/io/InputStream;)Ljava/lang/String;
+all statements: [1139]
+coveraged statements: null
+--------------------------------------------
+method: digestAsHex (Ljava/nio/ByteBuffer;)Ljava/lang/String;
+all statements: [1111]
+coveraged statements: null
+--------------------------------------------
+method: sha384Hex (Ljava/lang/String;)Ljava/lang/String;
+all statements: [717]
+coveraged statements: [717]
+--------------------------------------------
+method: shaHex (Ljava/lang/String;)Ljava/lang/String;
+all statements: [853]
+coveraged statements: [853]
+--------------------------------------------
+method: digest (Ljava/security/MessageDigest;Ljava/io/InputStream;)[B
+all statements: [116]
+coveraged statements: [116]
+--------------------------------------------
+method: digest (Ljava/security/MessageDigest;[B)[B
+all statements: [68]
+coveraged statements: [68]
+--------------------------------------------
+method: getMd2Digest ()Ljava/security/MessageDigest;
+all statements: [176]
+coveraged statements: [176]
+--------------------------------------------
+method: md5Hex (Ljava/io/InputStream;)Ljava/lang/String;
+all statements: [401]
+coveraged statements: [401]
+--------------------------------------------
+method: sha256Hex (Ljava/io/InputStream;)Ljava/lang/String;
+all statements: [608]
+coveraged statements: [608]
+--------------------------------------------
+method: sha512 (Ljava/lang/String;)[B
+all statements: [764]
+coveraged statements: [764]
+--------------------------------------------
+method: sha256 (Ljava/io/InputStream;)[B
+all statements: [561]
+coveraged statements: [561]
+--------------------------------------------
+method: digest (Ljava/lang/String;)[B
+all statements: [1033]
+coveraged statements: [1033]
+--------------------------------------------
+method: sha512Hex (Ljava/lang/String;)Ljava/lang/String;
+all statements: [811]
+coveraged statements: [811]
+--------------------------------------------
+method: sha (Ljava/io/InputStream;)[B
+all statements: [441]
+coveraged statements: null
+--------------------------------------------
+method: <init> (Ljava/security/MessageDigest;)V
+all statements: [983, 984, 985]
+coveraged statements: [983, 984, 985]
+--------------------------------------------
+method: digestAsHex (Ljava/lang/String;)Ljava/lang/String;
+all statements: [1098]
+coveraged statements: [1098]
+--------------------------------------------
+method: getSha256Digest ()Ljava/security/MessageDigest;
+all statements: [219]
+coveraged statements: [219]
+--------------------------------------------
+method: md2 (Ljava/lang/String;)[B
+all statements: [302]
+coveraged statements: [302]
+--------------------------------------------
+method: updateDigest (Ljava/security/MessageDigest;Ljava/lang/String;)Ljava/security/MessageDigest;
+all statements: [948, 949]
+coveraged statements: [948, 949]
+--------------------------------------------
+method: <init> (Ljava/lang/String;)V
+all statements: [1000, 1001]
+coveraged statements: [1000, 1001]
+--------------------------------------------
+method: md5 (Ljava/io/InputStream;)[B
+all statements: [365]
+coveraged statements: [365]
+--------------------------------------------
+method: digest (Ljava/nio/ByteBuffer;)[B
+all statements: [1046]
+coveraged statements: null
+--------------------------------------------
+method: sha1 (Ljava/lang/String;)[B
+all statements: [491]
+coveraged statements: [491]
+--------------------------------------------
+method: sha384Hex (Ljava/io/InputStream;)Ljava/lang/String;
+all statements: [702]
+coveraged statements: [702]
+--------------------------------------------
+
+class: org/apache/commons/codec/Charsets
+method: <clinit> ()V
+all statements: [101, 114, 128, 141, 154, 167]
+coveraged statements: [101, 114, 128, 141, 154, 167]
+--------------------------------------------
+method: <init> ()V
+all statements: [59]
+coveraged statements: null
+--------------------------------------------
+method: toCharset (Ljava/lang/String;)Ljava/nio/charset/Charset;
+all statements: [87]
+coveraged statements: [87]
+--------------------------------------------
+method: toCharset (Ljava/nio/charset/Charset;)Ljava/nio/charset/Charset;
+all statements: [74]
+coveraged statements: [74]
+--------------------------------------------
+
+class: org/apache/commons/codec/net/RFC1522Codec
+method: <init> ()V
+all statements: [42]
+coveraged statements: [42]
+--------------------------------------------
+method: encodeText (Ljava/lang/String;Ljava/nio/charset/Charset;)Ljava/lang/String;
+all statements: [69, 70, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81]
+coveraged statements: [69, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81]
+--------------------------------------------
+method: encodeText (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+all statements: [104, 105, 107]
+coveraged statements: [104, 105]
+--------------------------------------------
+method: decodeText (Ljava/lang/String;)Ljava/lang/String;
+all statements: [126, 127, 129, 130, 132, 133, 134, 135, 136, 138, 139, 140, 142, 143, 144, 145, 147, 148, 149, 151, 152, 153, 154, 155]
+coveraged statements: [126, 127, 129, 130, 132, 133, 134, 135, 136, 138, 139, 140, 142, 143, 144, 145, 147, 148, 149, 151, 152, 153, 154, 155]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/RefinedSoundex
+method: <clinit> ()V
+all statements: [44, 57]
+coveraged statements: [44, 57]
+--------------------------------------------
+method: <init> ()V
+all statements: [63, 64, 65]
+coveraged statements: [63, 64, 65]
+--------------------------------------------
+method: soundex (Ljava/lang/String;)Ljava/lang/String;
+all statements: [176, 177, 179, 180, 181, 184, 185, 188, 190, 192, 193, 194, 195, 196, 199, 203]
+coveraged statements: [176, 177, 179, 180, 181, 184, 185, 188, 190, 192, 193, 194, 195, 196, 199, 203]
+--------------------------------------------
+method: getMappingCode (C)C
+all statements: [162, 163, 165]
+coveraged statements: [162, 163, 165]
+--------------------------------------------
+method: <init> (Ljava/lang/String;)V
+all statements: [89, 90, 91]
+coveraged statements: [89, 90, 91]
+--------------------------------------------
+method: difference (Ljava/lang/String;Ljava/lang/String;)I
+all statements: [116]
+coveraged statements: [116]
+--------------------------------------------
+method: <init> ([C)V
+all statements: [76, 77, 78, 79]
+coveraged statements: [76, 77, 78, 79]
+--------------------------------------------
+method: encode (Ljava/lang/String;)Ljava/lang/String;
+all statements: [149]
+coveraged statements: [149]
+--------------------------------------------
+method: encode (Ljava/lang/Object;)Ljava/lang/Object;
+all statements: [134, 135, 137]
+coveraged statements: [134, 135, 137]
+--------------------------------------------
+
+class: org/apache/commons/codec/language/ColognePhonetic$CologneOutputBuffer
+method: addRight (C)V
+all statements: [235, 236, 237]
+coveraged statements: [235, 236, 237]
+--------------------------------------------
+method: copyData (II)[C
+all statements: [241, 242, 243]
+coveraged statements: [241, 242, 243]
+--------------------------------------------
+method: <init> (Lorg/apache/commons/codec/language/ColognePhonetic;I)V
+all statements: [230, 231, 232]
+coveraged statements: [230, 231, 232]
+--------------------------------------------

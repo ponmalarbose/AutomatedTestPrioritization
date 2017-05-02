@@ -1,0 +1,173 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (exceptions.cpp:427), pid=5200, tid=0x00000000000008f0
+#  fatal error: ExceptionMark destructor expects no pending exceptions
+#
+# JRE version: Java(TM) SE Runtime Environment (8.0_121-b13) (build 1.8.0_121-b13)
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (25.121-b13 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.java.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002bcd800):  JavaThread "main" [_thread_in_vm, id=2288, stack(0x0000000002a40000,0x0000000002b40000)]
+
+Stack: [0x0000000002a40000,0x0000000002b40000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x000000001e8c2800 JavaThread "C1 CompilerThread3" daemon [_thread_in_native, id=5172, stack(0x000000001f200000,0x000000001f300000)]
+  0x000000001e8bd800 JavaThread "C2 CompilerThread2" daemon [_thread_blocked, id=1132, stack(0x000000001f100000,0x000000001f200000)]
+  0x000000001e8bb800 JavaThread "C2 CompilerThread1" daemon [_thread_in_native, id=8396, stack(0x000000001f000000,0x000000001f100000)]
+  0x000000001e8ba000 JavaThread "C2 CompilerThread0" daemon [_thread_blocked, id=13664, stack(0x000000001ef00000,0x000000001f000000)]
+  0x000000001e82e000 JavaThread "Attach Listener" daemon [_thread_blocked, id=11068, stack(0x000000001ee00000,0x000000001ef00000)]
+  0x000000001e82d000 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=4624, stack(0x000000001ed00000,0x000000001ee00000)]
+  0x0000000002ece000 JavaThread "Finalizer" daemon [_thread_blocked, id=8408, stack(0x000000001ec00000,0x000000001ed00000)]
+  0x0000000002ec7000 JavaThread "Reference Handler" daemon [_thread_blocked, id=8412, stack(0x000000001e700000,0x000000001e800000)]
+=>0x0000000002bcd800 JavaThread "main" [_thread_in_vm, id=2288, stack(0x0000000002a40000,0x0000000002b40000)]
+
+Other Threads:
+  0x000000001c929000 VMThread [stack: 0x000000001e600000,0x000000001e700000] [id=15816]
+
+VM state:not at safepoint (normal execution)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Heap:
+ PSYoungGen      total 76288K, used 3932K [0x000000076b180000, 0x0000000770680000, 0x00000007c0000000)
+  eden space 65536K, 6% used [0x000000076b180000,0x000000076b5570f8,0x000000076f180000)
+  from space 10752K, 0% used [0x000000076fc00000,0x000000076fc00000,0x0000000770680000)
+  to   space 10752K, 0% used [0x000000076f180000,0x000000076f180000,0x000000076fc00000)
+ ParOldGen       total 175104K, used 0K [0x00000006c1400000, 0x00000006cbf00000, 0x000000076b180000)
+  object space 175104K, 0% used [0x00000006c1400000,0x00000006c1400000,0x00000006cbf00000)
+ Metaspace       used 2922K, capacity 4784K, committed 5120K, reserved 1056768K
+  class space    used 304K, capacity 424K, committed 512K, reserved 1048576K
+
+Card table byte_map: [0x0000000012290000,0x0000000012a90000] byte_map_base: 0x000000000ec86000
+
+Marking Bits: (ParMarkBitMap*) 0x000000005bccb6d0
+ Begin Bits: [0x00000000137e0000, 0x0000000017790000)
+ End Bits:   [0x0000000017790000, 0x000000001b740000)
+
+Polling page: 0x0000000001080000
+
+CodeCache: size=245760Kb used=1323Kb max_used=1329Kb free=244436Kb
+ bounds [0x0000000002ed0000, 0x0000000003140000, 0x0000000011ed0000]
+ total_blobs=353 nmethods=111 adapters=157
+ compilation: enabled
+
+Compilation events (10 events):
+Event: 0.106 Thread 0x000000001e8bd800  113       4       org.objectweb.asm.ClassWriter::a (49 bytes)
+Event: 0.107 Thread 0x000000001e8c2800 nmethod 108 0x0000000003010fd0 code [0x0000000003011480, 0x0000000003014c28]
+Event: 0.107 Thread 0x000000001e8c2800  114       3       org.objectweb.asm.Frame::a (306 bytes)
+Event: 0.107 Thread 0x000000001e8bb800 nmethod 88 0x000000000300e410 code [0x000000000300e560, 0x000000000300ea48]
+Event: 0.107 Thread 0x000000001e8bb800  115       4       org.objectweb.asm.Item::a (143 bytes)
+Event: 0.107 Thread 0x000000001e8c2800 nmethod 114 0x0000000003018090 code [0x0000000003018280, 0x0000000003018c48]
+Event: 0.107 Thread 0x000000001e8c2800  109       3       org.objectweb.asm.MethodWriter::visitLdcInsn (176 bytes)
+Event: 0.108 Thread 0x000000001e8bd800 nmethod 113 0x000000000300e050 code [0x000000000300e1a0, 0x000000000300e2c8]
+Event: 0.108 Thread 0x000000001e8c2800 nmethod 109 0x0000000003019cd0 code [0x0000000003019ea0, 0x000000000301a4a8]
+Event: 0.108 Thread 0x000000001e8c2800  104       3       edu.utdallas.CoverageMethodTransformVisitor::visitLineNumber (68 bytes)
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (1 events):
+Event: 0.106 Thread 0x0000000002bcd800 Uncommon trap: reason=unstable_if action=reinterpret pc=0x0000000003007680 method=org.objectweb.asm.Frame.a(Lorg/objectweb/asm/ClassWriter;I[II)Z @ 256
+
+Internal exceptions (5 events):
+Event: 0.025 Thread 0x0000000002bcd800 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.defineClass(Ljava/lang/String;[BII)Ljava/lang/Class; name or signature does not match> (0x000000076b187ca8) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u121\8372\hotspot\
+Event: 0.025 Thread 0x0000000002bcd800 Exception <a 'java/lang/NoSuchMethodError': Method sun.misc.Unsafe.prefetchRead(Ljava/lang/Object;J)V name or signature does not match> (0x000000076b187f90) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u121\8372\hotspot\src\share\vm\prims
+Event: 0.108 Thread 0x0000000002bcd800 Exception <a 'java/lang/NoClassDefFoundError': edu/utdallas/AddDetails> (0x000000076b545928) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u121\8372\hotspot\src\share\vm\classfile\systemDictionary.cpp, line 208]
+Event: 0.108 Thread 0x0000000002bcd800 Exception <a 'java/lang/NoClassDefFoundError'> (0x000000076b545928) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u121\8372\hotspot\src\share\vm\oops\instanceKlass.cpp, line 964]
+Event: 0.108 Thread 0x0000000002bcd800 Exception <a 'java/lang/NoClassDefFoundError'> (0x000000076b545928) thrown at [C:\re\workspace\8-2-build-windows-amd64-cygwin\jdk8u121\8372\hotspot\src\share\vm\oops\instanceKlass.cpp, line 964]
+
+Events (10 events):
+Event: 0.088 loading class org/objectweb/asm/Handler
+Event: 0.088 loading class org/objectweb/asm/Handler done
+Event: 0.089 loading class org/objectweb/asm/Edge
+Event: 0.089 loading class org/objectweb/asm/Edge done
+Event: 0.106 Thread 0x0000000002bcd800 Uncommon trap: trap_request=0xffffff65 fr.pc=0x0000000003007680
+Event: 0.106 Thread 0x0000000002bcd800 DEOPT PACKING pc=0x0000000003007680 sp=0x0000000002b3ccd0
+Event: 0.106 Thread 0x0000000002bcd800 DEOPT UNPACKING pc=0x0000000002f1582a sp=0x0000000002b3cc40 mode 2
+Event: 0.108 loading class java/lang/invoke/MethodHandleImpl done
+Event: 0.108 loading class edu/utdallas/AddDetails
+Event: 0.108 loading class edu/utdallas/AddDetails done
+
+
+Dynamic libraries:
+0x00007ff7199c0000 - 0x00007ff7199f7000 	C:\Program Files\Java\jdk1.8.0_121\jre\bin\java.exe
+0x00007ffbf8890000 - 0x00007ffbf8a6b000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffbf7800000 - 0x00007ffbf78ae000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffbf4db0000 - 0x00007ffbf4ff9000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffbf76f0000 - 0x00007ffbf7791000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffbf5ff0000 - 0x00007ffbf608d000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffbf77a0000 - 0x00007ffbf77f9000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffbf7cf0000 - 0x00007ffbf7e15000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffbf8740000 - 0x00007ffbf888a000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffbf5b60000 - 0x00007ffbf5b7e000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffbf8100000 - 0x00007ffbf8127000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffbf51d0000 - 0x00007ffbf5359000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffbf5ac0000 - 0x00007ffbf5b5a000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffbf5bd0000 - 0x00007ffbf5cc6000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffbe8650000 - 0x00007ffbe88b7000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.15063.0_none_108e4f62dfe5d999\COMCTL32.dll
+0x00007ffbf8440000 - 0x00007ffbf8739000 	C:\WINDOWS\System32\combase.dll
+0x00007ffbf5d80000 - 0x00007ffbf5dea000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffbf7fc0000 - 0x00007ffbf7fed000 	C:\WINDOWS\System32\IMM32.DLL
+0x000000005bd50000 - 0x000000005be22000 	C:\Program Files\Java\jdk1.8.0_121\jre\bin\msvcr100.dll
+0x000000005b4b0000 - 0x000000005bd4b000 	C:\Program Files\Java\jdk1.8.0_121\jre\bin\server\jvm.dll
+0x00007ffbf6090000 - 0x00007ffbf6098000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffbd1d80000 - 0x00007ffbd1d89000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffbee5e0000 - 0x00007ffbee603000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffbec620000 - 0x00007ffbec62a000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffbf8080000 - 0x00007ffbf80ec000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffbee460000 - 0x00007ffbee48b000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ffbf5b80000 - 0x00007ffbf5bc9000 	C:\WINDOWS\System32\cfgmgr32.dll
+0x000000005b4a0000 - 0x000000005b4af000 	C:\Program Files\Java\jdk1.8.0_121\jre\bin\verify.dll
+0x000000005b470000 - 0x000000005b499000 	C:\Program Files\Java\jdk1.8.0_121\jre\bin\java.dll
+0x000000005b3e0000 - 0x000000005b403000 	C:\Program Files\Java\jdk1.8.0_121\jre\bin\instrument.dll
+0x000000005b450000 - 0x000000005b466000 	C:\Program Files\Java\jdk1.8.0_121\jre\bin\zip.dll
+0x00007ffbf6140000 - 0x00007ffbf7577000 	C:\WINDOWS\System32\SHELL32.dll
+0x00007ffbf5df0000 - 0x00007ffbf5e9a000 	C:\WINDOWS\System32\shcore.dll
+0x00007ffbf5360000 - 0x00007ffbf5a52000 	C:\WINDOWS\System32\windows.storage.dll
+0x00007ffbf82d0000 - 0x00007ffbf8321000 	C:\WINDOWS\System32\shlwapi.dll
+0x00007ffbf4d90000 - 0x00007ffbf4da1000 	C:\WINDOWS\System32\kernel.appcore.dll
+0x00007ffbf4d40000 - 0x00007ffbf4d8c000 	C:\WINDOWS\System32\powrprof.dll
+0x00007ffbf4d00000 - 0x00007ffbf4d15000 	C:\WINDOWS\System32\profapi.dll
+
+VM Arguments:
+jvm_args: -javaagent:target/agent.jar 
+java_command: C:\Users\rohit\Downloads\automated-coverage-collection-tool-master\automated-coverage-collection-tool-master\target\surefire\surefirebooter899633669141339090.jar C:\Users\rohit\Downloads\automated-coverage-collection-tool-master\automated-coverage-collection-tool-master\target\surefire\surefire6766998776029530254tmp C:\Users\rohit\Downloads\automated-coverage-collection-tool-master\automated-coverage-collection-tool-master\target\surefire\surefire_03321176069550307871tmp
+java_class_path (initial): C:\Users\rohit\Downloads\automated-coverage-collection-tool-master\automated-coverage-collection-tool-master\target\surefire\surefirebooter899633669141339090.jar;target/agent.jar
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.8.0_121
+PATH=C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Sublime Text 3\;C:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;C:\RailsInstaller\Git\cmd;C:\RailsInstaller\Ruby2.3.0\bin;C:\Users\rohit\AppData\Local\Microsoft\WindowsApps;C:\apache-maven-3.3.9-bin\apache-maven-3.3.9\bin;;C:\WINDOWS\system32;
+USERNAME=rohit
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 10.0 , 64 bit Build 15063 (10.0.15063.0)
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 60 stepping 3, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, avx2, aes, clmul, erms, lzcnt, ht, tsc, tscinvbit, bmi1, bmi2
+
+Memory: 4k page, physical 16687384k(9574192k free), swap 19177752k(10383100k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (25.121-b13) for windows-amd64 JRE (1.8.0_121-b13), built on Dec 12 2016 18:21:36 by "java_re" with MS VC++ 10.0 (VS2010)
+
+time: Tue Apr 18 14:21:28 2017
+elapsed time: 0 seconds (0d 0h 0m 0s)
+
